@@ -1,0 +1,9 @@
+---
+created: 2026-05-08
+original_purpose: Category narrative for Emerging models in the HCLS FM map. Read by the build script and rendered under Emerging > Emerging models on the public page.
+version: 1.0
+---
+
+# 4.1 Emerging models
+
+A single catch-all category for foundation models in healthcare and life sciences that don't yet fit a settled main-area category. Use the row's tags to find topical groupings (clinical waveforms, microbiome and metagenomics, drug-target interaction, population-level data, clinical trials).

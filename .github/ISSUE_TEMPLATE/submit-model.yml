@@ -1,0 +1,45 @@
+name: Submit a model
+description: Suggest a healthcare or life-sciences foundation model for the map.
+title: "[Submit] "
+labels: [submission]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submissions are reviewed by hand against the inclusion gates in METHODOLOGY.md. Nothing is added automatically.
+  - type: input
+    id: name
+    attributes:
+      label: Model name
+    validations:
+      required: true
+  - type: input
+    id: org
+    attributes:
+      label: Organization
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary link (paper, model card, or repo)
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [biology, chemistry, clinical, emerging]
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it passes the gates
+      description: Is it a foundation model, trained on HCLS data, and in which category?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: If this replaces an older version already listed, which one?
