@@ -59,6 +59,7 @@ Only the two strongest usage signals count. Models are adopted through different
 | High | composite 5 or more, with data on at least 2 usage signals |
 | Medium | composite 4, or composite 5 or more with data on fewer than 2 usage signals |
 | Low | composite under 4 |
+
 The two-signal floor stops a single big number, such as a download count with no paper behind it, from carrying a model to high on its own.
 
 ### Two adjustments

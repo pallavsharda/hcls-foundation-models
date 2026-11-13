@@ -59,6 +59,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/pallavsharda/hcls-foundation
 | `source` | How the model entered the list. |
 | `release_year` | Year the version named in the row first became public. |
 | `first_release_year` | Year the first version of that model line became public. |
+
 Blank means unknown or not applicable. One row covers one model line within one category, so newer versions replace older ones (for example Evo to Evo 2).
 
 ## Submit a model or a correction
@@ -71,6 +72,7 @@ The first version of the list was seeded from three community lists:
 1. [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) (Jianing Qiu and others)
 2. [Awesome-Bio-Foundation-Models](https://github.com/apeterswu/Awesome-Bio-Foundation-Models) (apeterswu)
 3. [Awesome-Foundation-Models-for-Advancing-Healthcare](https://github.com/YutingHe-list/Awesome-Foundation-Models-for-Advancing-Healthcare) (Yuting He and others)
+
 Model names, organizations and links are facts belonging to their creators.
 
 ## License and citation
