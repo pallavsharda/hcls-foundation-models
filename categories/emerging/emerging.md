@@ -1,6 +1,5 @@
 ---
 created: 2026-05-08
-original_purpose: Category narrative for Emerging models in the HCLS FM map. Read by the build script and rendered under Emerging > Emerging models on the public page.
 version: 1.0
 ---
 

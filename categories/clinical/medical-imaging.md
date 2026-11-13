@@ -1,6 +1,5 @@
 ---
 created: 2026-05-05
-original_purpose: Category narrative for Medical imaging models in the HCLS FM map. Read by the build script and rendered under Clinical > Medical imaging models on the public page.
 version: 1.1
 ---
 

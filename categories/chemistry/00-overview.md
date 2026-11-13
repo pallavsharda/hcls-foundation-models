@@ -1,6 +1,5 @@
 ---
 created: 2026-05-05
-original_purpose: Area-level narrative for Chemistry in the HCLS FM map. Read by the build script and rendered as the introductory copy at the top of the Chemistry area on the public page.
 version: 1.1
 ---
 

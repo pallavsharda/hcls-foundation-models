@@ -1,6 +1,5 @@
 ---
 created: 2026-06-11
-original_purpose: Description and ongoing notes for the DNABERT-2 entry in the HCLS FM map.
 version: 1.0
 slug: dnabert-2
 name: DNABERT-2

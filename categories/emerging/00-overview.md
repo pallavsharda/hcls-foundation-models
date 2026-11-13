@@ -1,6 +1,5 @@
 ---
 created: 2026-05-08
-original_purpose: Area-level narrative for Emerging in the HCLS FM map. Read by the build script and rendered as the introductory copy at the top of the Emerging area on the public page.
 version: 1.0
 ---
 

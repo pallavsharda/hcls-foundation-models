@@ -68,10 +68,17 @@ Open an issue with the **[Submit a model](https://github.com/pallavsharda/hcls-f
 
 ## Credits
 
-The first version of the list was seeded from three community lists:
+The list started from my own taxonomy of the field. Candidates were then drawn from five community lists, four surveys and the Hugging Face Hub:
 1. [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) (Jianing Qiu and others)
-2. [Awesome-Bio-Foundation-Models](https://github.com/apeterswu/Awesome-Bio-Foundation-Models) (apeterswu)
-3. [Awesome-Foundation-Models-for-Advancing-Healthcare](https://github.com/YutingHe-list/Awesome-Foundation-Models-for-Advancing-Healthcare) (Yuting He and others)
+2. [Awesome-Foundation-Models-for-Advancing-Healthcare](https://github.com/YutingHe-list/Awesome-Foundation-Models-for-Advancing-Healthcare) (Yuting He and others)
+3. [Awesome-Bio-Foundation-Models](https://github.com/apeterswu/Awesome-Bio-Foundation-Models) (apeterswu)
+4. [Awesome-Foundation-Models-in-Medical-Imaging](https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging) (xmindflow)
+5. [Awesome-Medical-Large-Language-Models](https://github.com/burglarhobbit/Awesome-Medical-Large-Language-Models) (burglarhobbit)
+6. [Foundation Model for Advancing Healthcare](https://arxiv.org/abs/2404.03264) (He et al.)
+7. [A Comprehensive Survey of Foundation Models in Medicine](https://arxiv.org/abs/2406.10729)
+8. [Biomedical Foundation Model: A Survey](https://arxiv.org/abs/2503.02104)
+9. [Foundation Models in Biomedical Imaging: Turning Hype into Reality](https://arxiv.org/abs/2512.15808)
+10. [Hugging Face Hub](https://huggingface.co/models), scanned monthly for new releases
 
 Model names, organizations and links are facts belonging to their creators.
 
