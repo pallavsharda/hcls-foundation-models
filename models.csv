@@ -1,179 +1,179 @@
-slug,name,org,area,category,modality,url,prominence,interp_partner,tags,params,active,last_verified,source
-evo-2,Evo 2,Arc Institute,biology,genomics,DNA,https://arcinstitute.org/tools/evo,prominent,Goodfire,generative|interpretability,7B/40B,yes,2026-11-13,blog
-hyenadna,HyenaDNA,HazyResearch (Stanford),biology,genomics,DNA,https://github.com/HazyResearch/hyena-dna,prominent,,,,yes,2026-11-13,blog
-nucleotide-transformer,Nucleotide Transformer v3,InstaDeep,biology,genomics,DNA,https://huggingface.co/InstaDeepAI/NTv3_650M_pre,prominent,,multispecies,8M/100M/650M,yes,2026-11-13,blog
-alphagenome,AlphaGenome,Google DeepMind,biology,genomics,DNA,https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/,prominent,,private,,yes,2026-11-13,blog
-geneformer,Geneformer,Boston Children's Hospital,biology,transcriptomics,RNA,https://huggingface.co/ctheodoris/Geneformer,prominent,,,316M,yes,2026-11-13,blog
-scgpt,scGPT,University of Toronto,biology,transcriptomics,RNA,https://github.com/bowang-lab/scGPT,prominent,,,,yes,2026-11-13,blog
-scbert,scBERT,Tencent AI Lab,biology,transcriptomics,RNA,https://github.com/TencentAILabHealthcare/scBERT,tracked,,,,yes,2026-05-08,blog
-transcriptformer,TranscriptFormer,Chan Zuckerberg Initiative,biology,transcriptomics,RNA,https://chanzuckerberg.com/blog/transcriptformer-model-overview/,tracked,,multispecies,,no,2026-05-12,blog
-arc-state,State,Arc Institute,biology,transcriptomics,RNA,https://arcinstitute.org/news/virtual-cell-model-state,tracked,,private,,no,2026-05-12,blog
-arc-stack,Stack,Arc Institute,biology,transcriptomics,RNA,https://arcinstitute.org/tools/stack,tracked,,private,,no,2026-05-12,blog
-alphafold-3,AlphaFold 3,Google DeepMind / Isomorphic Labs,biology,protein,protein,https://alphafoldserver.com/,prominent,,multimodal|private,,yes,2026-11-13,blog
-esm-3,ESM-3,EvolutionaryScale (Meta lineage),biology,protein,protein,https://www.evolutionaryscale.ai/blog/esm3-release,prominent,,multimodal|generative,,yes,2026-11-13,blog
-rosettafold,RoseTTAFold All-Atom,Baker Lab (UW IPD),biology,protein,protein,https://www.science.org/doi/10.1126/science.adl2528,prominent,,,,yes,2026-11-13,blog
-primateai-3d,PrimateAI-3D,Illumina,biology,protein,protein,https://www.science.org/doi/10.1126/science.abn8197,tracked,,private,,yes,2026-05-08,blog
-openfold-3,OpenFold3,,biology,protein,protein,https://openfold.io/,tracked,,,,yes,2026-05-08,blog
-pleiades,Pleiades,Prima Mente,biology,epigenomics,cfDNA,https://www.primamente.com/pleiades,tracked,Goodfire,interpretability|private,,no,2026-11-13,blog
-iglm,IgLM,Stanford (Gray Lab),biology,antibodies-biologics,antibody-sequence,https://github.com/Graylab/IgLM,tracked,,generative,,yes,2026-11-13,blog
-ablang2,AbLang2,Oxford OPIG,biology,antibodies-biologics,antibody-sequence,https://github.com/oxpig/AbLang2,tracked,,,,yes,2026-11-13,blog
-antiberty,AntiBERTy,Gray Lab,biology,antibodies-biologics,antibody-sequence,https://github.com/jeffreyruffolo/AntiBERTy,tracked,,,,yes,2026-05-08,blog
-antiberta2,AntiBERTa2,Alchemab Therapeutics,biology,antibodies-biologics,antibody-sequence,,tracked,,private,,no,2026-05-12,blog
-molmim,MolMIM,NVIDIA BioNeMo,chemistry,small-molecule,SMILES,https://developer.nvidia.com/blog/new-nvidia-neural-models-accelerate-drug-discovery/,tracked,,generative|private,,yes,2026-11-13,blog
-molformer,MoLFormer,IBM Research,chemistry,small-molecule,SMILES,https://github.com/IBM/molformer,prominent,,,,yes,2026-11-13,blog
-chemgpt,ChemGPT,,chemistry,small-molecule,SMILES,https://chemrxiv.org/engage/chemrxiv/article-details/627bddd544bdd532395fb4b5,prominent,,generative,,yes,2026-11-13,blog
-megamolbart,MegaMolBART,NVIDIA / AstraZeneca,chemistry,small-molecule,SMILES,https://github.com/NVIDIA/MegaMolBART,tracked,,generative|private,,yes,2026-05-08,blog
-med-gemini,Med-Gemini,Google,clinical,medical-imaging,multimodal,https://research.google/blog/advancing-medical-ai-with-med-gemini/,tracked,,multimodal|private,,yes,2026-11-13,blog
-biomedclip,BiomedCLIP,Microsoft,clinical,medical-imaging,vision-language,https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224,prominent,,,,yes,2026-11-13,blog
-cxr-foundation,CXR Foundation,Google,clinical,medical-imaging,radiograph,https://github.com/Google-Health/cxr-foundation,tracked,,private,,yes,2026-11-06,blog
-radfm,RadFM,Shanghai Jiao Tong University,clinical,medical-imaging,radiology,https://arxiv.org/abs/2308.02463,tracked,,private,,yes,2026-06-11,blog
-chexfound,CheXFound,Rensselaer Polytechnic Institute,clinical,medical-imaging,radiograph,https://github.com/RPIDIAL/CheXFound,tracked,,private,,no,2026-06-11,blog
-virchow,Virchow2,Paige AI,clinical,digital-pathology,WSI,https://arxiv.org/abs/2408.00738,prominent,,private,,yes,2026-11-13,blog
-prov-gigapath,Prov-GigaPath,Microsoft / Providence,clinical,digital-pathology,WSI,https://www.nature.com/articles/s41586-024-07441-w,prominent,,private,,yes,2026-11-13,blog
-uni,UNI2-h,Harvard Mahmood Lab,clinical,digital-pathology,WSI,https://huggingface.co/MahmoodLab/UNI2-h,prominent,,private,681M,yes,2026-11-13,blog
-conch,CONCH,Harvard Mahmood Lab,clinical,digital-pathology,vision-language,https://www.nature.com/articles/s41591-024-02856-4,prominent,,private,,yes,2026-11-13,blog
-truveta-language-model,Truveta Language Model,Truveta,clinical,clinical-language-patient,EHR-text,https://www.truveta.com/blog/announcement/truveta-language-model/,tracked,,EHR|longitudinal|clinical-reasoning|private,,yes,2026-11-13,blog
-gatortron,GatorTron,University of Florida / NVIDIA,clinical,clinical-language-patient,EHR-text,https://github.com/uf-hobi-informatics-lab/GatorTron,prominent,,EHR|clinical-NLP,,yes,2026-11-13,blog
-nyutron,NYUTron,NYU Langone,clinical,clinical-language-patient,EHR-text,https://www.nature.com/articles/s41586-023-06160-y,tracked,,EHR|clinical-NLP|private,,yes,2026-05-08,blog
-clmbr,CLMBR,Stanford (Nigam Shah group),clinical,clinical-language-patient,EHR-codes,https://arxiv.org/abs/2001.05295,tracked,,EHR|longitudinal|private,,yes,2026-05-08,blog
-amie,AMIE,Google Research,clinical,clinical-language-patient,medical-text,https://research.google/blog/amie-a-research-ai-system-for-diagnostic-medical-reasoning-and-conversations/,prominent,,clinical-reasoning|private,,yes,2026-11-13,blog
-standard-model-bio,Standard Model Bio,Standard Model Bio,clinical,clinical-language-patient,EHR-multi-omics,https://standardmodel.bio/#model,tracked,,longitudinal|private,,no,2026-05-12,blog
-surgvista,SurgVISTA,,clinical,surgical-video,video,https://arxiv.org/abs/2506.02692,tracked,,private,,no,2026-06-11,blog
-endo-fm,Endo-FM,CUHK,clinical,surgical-video,video,https://github.com/med-air/Endo-FM,tracked,,,,yes,2026-11-13,blog
-surgvlp,SurgVLP,University of Strasbourg / CAMMA,clinical,surgical-video,vision-language,https://arxiv.org/abs/2307.15220,tracked,,private,,no,2026-06-11,blog
-heartbeit,HeartBEiT,,emerging,emerging,ECG,https://arxiv.org/abs/2212.14040,tracked,,clinical-waveforms|private,,no,2026-05-12,blog
-labram,LaBraM,,emerging,emerging,EEG,https://github.com/935963004/LaBraM,tracked,,clinical-waveforms,,yes,2026-05-08,blog
-metagene-1,METAGENE-1,Arc Institute,emerging,emerging,DNA-metagenomic,https://arcinstitute.org/news/metagene-1,tracked,,,,yes,2026-05-08,blog
-gpn-msa,GPN-MSA,Song Lab (UC Berkeley),biology,genomics,DNA,https://github.com/songlab-cal/gpn,tracked,,,,yes,2026-05-12,scan-2026-05-12
-gena-lm,ModernGENA,AIRI Institute,biology,genomics,DNA,https://huggingface.co/AIRI-Institute/moderngena-large,prominent,,,377M,yes,2026-11-13,scan-2026-05-12
-epigept,EpiGePT,Tsinghua,biology,epigenomics,epigenome,https://github.com/ZjGaothu/EpiGePT,tracked,,,,no,2026-05-12,scan-2026-05-12
-dnagpt,DNAGPT,Tencent AI Lab,biology,genomics,DNA,https://github.com/TencentAILabHealthcare/DNAGPT,tracked,,generative,,yes,2026-05-12,scan-2026-05-12
-glm-hwang,gLM,Kim Lab (Harvard),biology,genomics,DNA,https://github.com/y-hwang/gLM,tracked,,,,no,2026-05-12,scan-2026-05-12
-rna-fm,RNA-FM,CUHK,biology,transcriptomics,RNA,https://github.com/ml4bio/RNA-FM,tracked,,,,yes,2026-11-13,scan-2026-05-12
-rnabert,RNABERT,Akiyama/Sakakibara (Keio),biology,transcriptomics,RNA,https://github.com/mana438/RNABertModel,tracked,,,,yes,2026-05-12,scan-2026-05-12
-uni-rna,UNI-RNA,DP Technology,biology,transcriptomics,RNA,https://www.biorxiv.org/content/10.1101/2023.07.11.548588,tracked,,private,,yes,2026-05-12,scan-2026-05-12
-xtrimogene,xTrimoGene,BioMap / Tsinghua,biology,transcriptomics,scRNA,https://arxiv.org/abs/2311.15156,tracked,,private,,yes,2026-05-12,scan-2026-05-12
-rinalmo,RiNALMo,Penić et al.,biology,transcriptomics,RNA,https://github.com/lbcb-sci/RiNALMo,tracked,,,,yes,2026-05-12,scan-2026-05-12
-atom-1,ATOM-1,Atomic AI,biology,transcriptomics,RNA,https://www.biorxiv.org/content/10.1101/2023.12.13.571579,tracked,,private,,yes,2026-05-12,scan-2026-05-12
-cellplm,CellPLM,UIUC / Mayo,biology,transcriptomics,scRNA,https://github.com/OmicsML/CellPLM,tracked,,,,yes,2026-05-12,scan-2026-05-12
-utr-lm,UTR-LM,Tsinghua,biology,transcriptomics,mRNA-UTR,https://github.com/a96123155/UTR-LM,tracked,,,,yes,2026-05-12,scan-2026-05-12
-ernie-rna,ERNIE-RNA,Baidu / Tsinghua,biology,transcriptomics,RNA,https://github.com/Bruce-ywj/ERNIE-RNA,tracked,,,,yes,2026-05-12,scan-2026-05-12
-generrna,GenerRNA,Aoki & Sakakibara,biology,transcriptomics,RNA,https://huggingface.co/pfnet/GenerRNA,tracked,,generative,,no,2026-05-12,scan-2026-05-12
-orthrus,Orthrus,University of Toronto,biology,transcriptomics,RNA,https://github.com/bowang-lab/Orthrus,tracked,,,,yes,2026-05-12,scan-2026-05-12
-genecompass,GeneCompass,Beijing Academy of AI,biology,transcriptomics,scRNA,https://github.com/xCompass-AI/GeneCompass,tracked,,multispecies,,yes,2026-05-12,scan-2026-05-12
-scprint,scPRINT,Owkin,biology,transcriptomics,scRNA,https://github.com/cantinilab/scPRINT,tracked,,,,yes,2026-05-12,scan-2026-05-12
-scfoundation,scFoundation,BAAI / Tsinghua,biology,transcriptomics,scRNA,https://github.com/biomap-research/scFoundation,tracked,,,,yes,2026-05-12,scan-2026-05-12
-scmulan,scMulan,Tsinghua,biology,transcriptomics,scRNA,https://github.com/SuperBianC/scMulan,tracked,,generative,,yes,2026-05-12,scan-2026-05-12
-cell2sentence,Cell2Sentence,Yale / Google,biology,multi-omics,scRNA+text,https://github.com/vandijklab/cell2sentence,prominent,,multimodal,,yes,2026-11-13,scan-2026-05-12
-unirep,UniRep,Church Lab (Harvard),biology,protein,protein,https://github.com/churchlab/UniRep,prominent,,,,yes,2026-11-13,scan-2026-05-12
-prottrans,ProtTrans,RostLab (TUM),biology,protein,protein,https://github.com/agemagician/ProtTrans,prominent,,,,yes,2026-11-13,scan-2026-05-12
-protgpt2,ProtGPT2,Ferruz et al.,biology,protein,protein,https://huggingface.co/nferruz/ProtGPT2,prominent,,generative,,yes,2026-11-13,scan-2026-05-12
-proteinbert,ProteinBERT,Hebrew University,biology,protein,protein,https://github.com/nadavbra/protein_bert,prominent,,,,yes,2026-11-13,scan-2026-05-12
-progen2,ProGen2,Salesforce Research,biology,protein,protein,https://github.com/salesforce/progen,prominent,,generative,,yes,2026-11-13,scan-2026-05-12
-saprot,SaProt,Westlake / ZJU,biology,protein,protein+structure,https://github.com/westlake-repl/SaProt,prominent,,multimodal,,yes,2026-11-13,scan-2026-05-12
-ankh,Ankh,Elnaggar et al.,biology,protein,protein,https://github.com/agemagician/Ankh,prominent,,,,yes,2026-11-13,scan-2026-05-12
-gearnet,GearNet,MILA,biology,protein,protein-structure,https://github.com/DeepGraphLearning/GearNet,tracked,,,,yes,2026-05-12,scan-2026-05-12
-xtrimopglm,xTrimoPGLM,BioMap / Tsinghua,biology,protein,protein,https://arxiv.org/abs/2401.06199,tracked,,private,,yes,2026-05-12,scan-2026-05-12
-protst,ProtST,MILA,biology,protein,protein+text,https://github.com/DeepGraphLearning/ProtST,tracked,,multimodal,,yes,2026-05-12,scan-2026-05-12
-carp,CARP,Microsoft Research,biology,protein,protein,https://github.com/microsoft/protein-sequence-models,tracked,,,,yes,2026-05-12,scan-2026-05-12
-ontoprotein,OntoProtein,ZJU,biology,protein,protein,https://github.com/zjunlp/OntoProtein,tracked,,,,yes,2026-05-12,scan-2026-05-12
-helixfold-single,HelixFold-Single,Baidu,biology,protein,protein-structure,https://github.com/PaddlePaddle/PaddleHelix,tracked,,,,yes,2026-05-12,scan-2026-05-12
-bioemu-1,BioEmu-2,Microsoft Research,biology,protein,protein-conformation,https://github.com/microsoft/bioemu2,prominent,,generative,500M,yes,2026-11-13,scan-2026-05-12
-calm,CaLM,Outeiral & Deane (OPIG),biology,protein,codon,https://github.com/oxpig/CaLM,tracked,,,,yes,2026-05-12,scan-2026-05-12
-protrek,ProTrek,Westlake,biology,protein,protein+structure+text,https://github.com/westlake-repl/ProTrek,prominent,,multimodal,,yes,2026-11-13,scan-2026-05-12
-evolla,Evolla,Westlake / Tsinghua,biology,protein,protein+text,https://github.com/westlake-repl/Evolla,tracked,,multimodal,,yes,2026-05-12,scan-2026-05-12
-biot5-plus,BioT5+,Microsoft Research Asia,emerging,emerging,molecules+protein+text,https://github.com/QizhiPei/BioT5,tracked,,multimodal,,yes,2026-05-12,scan-2026-05-12
-h-optimus-0,H-optimus-1,Bioptimus,clinical,digital-pathology,WSI,https://huggingface.co/bioptimus/H-optimus-1,tracked,,,1.1B,yes,2026-11-06,scan-2026-05-12
-uce,Universal Cell Embeddings,Snap Stanford / CZI,biology,transcriptomics,scRNA,https://github.com/snap-stanford/UCE,tracked,,multispecies,,yes,2026-05-12,scan-2026-05-12
-nicheformer,Nicheformer,Helmholtz Munich (theislab),biology,multi-omics,scRNA+spatial,https://github.com/theislab/nicheformer,tracked,,multimodal,,yes,2026-05-12,scan-2026-05-12
-biogpt,BioGPT,Microsoft,clinical,clinical-language-patient,biomedical-text,https://github.com/microsoft/BioGPT,prominent,,generative|clinical-NLP,,yes,2026-11-13,scan-2026-06-11
-biobart,BioBART,Tsinghua University,clinical,clinical-language-patient,biomedical-text,https://github.com/GanjinZero/BioBART,tracked,,generative|clinical-NLP,,yes,2026-06-11,scan-2026-06-11
-biomegatron,BioMegatron,NVIDIA,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/EMBO/BioMegatron345mUncased,tracked,,clinical-NLP,,yes,2026-06-11,scan-2026-06-11
-kebiolm,KeBioLM,Tsinghua / Alibaba,clinical,clinical-language-patient,biomedical-text,https://github.com/GanjinZero/KeBioLM,tracked,,clinical-NLP,,yes,2026-06-11,scan-2026-06-11
-med-palm-2,Med-PaLM 2,Google,clinical,clinical-language-patient,medical-text,https://arxiv.org/abs/2305.09617,prominent,,clinical-reasoning|private,,yes,2026-11-13,scan-2026-06-11
-behrt,BEHRT,University of Oxford,clinical,clinical-language-patient,EHR,https://github.com/deepmedicine/BEHRT,tracked,,EHR|longitudinal,,yes,2026-06-11,scan-2026-06-11
-clinicalt5,ClinicalT5,University of Oregon / Baidu,clinical,clinical-language-patient,clinical-text,https://huggingface.co/luqh/ClinicalT5-large,tracked,,clinical-NLP|private,,yes,2026-06-11,scan-2026-06-11
-msa-transformer,MSA Transformer,Meta AI,biology,protein,protein,https://github.com/facebookresearch/esm,prominent,,,,yes,2026-11-13,scan-2026-06-11
-omegafold,OmegaFold,Helixon,biology,protein,protein,https://github.com/HeliXonProtein/OmegaFold,tracked,,,,yes,2026-06-11,scan-2026-06-11
-models-genesis,Models Genesis,Arizona State University,clinical,medical-imaging,3D-medical-imaging,https://github.com/MrGiovanni/ModelsGenesis,prominent,,,,yes,2026-11-13,scan-2026-06-11
-lvm-med,LVM-Med,VinAI / Oxford,clinical,medical-imaging,medical-imaging,https://github.com/duyhominhnguyen/LVM-Med,tracked,,,,yes,2026-06-11,scan-2026-06-11
-med3d,Med3D,Tencent,clinical,medical-imaging,3D-medical-imaging,https://github.com/Tencent/MedicalNet,prominent,,,,yes,2026-11-13,scan-2026-06-11
-visionfm,VisionFM,CUHK (ABILab),clinical,medical-imaging,ophthalmic-imaging,https://github.com/ABILab-CUHK/VisionFM,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-plip,PLIP,Stanford,clinical,digital-pathology,WSI,https://github.com/PathologyFoundation/plip,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11
-llava-med,LLaVA-Med,Microsoft,clinical,medical-imaging,vision-language,https://github.com/microsoft/LLaVA-Med,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11
-convirt,ConVIRT,Stanford,clinical,medical-imaging,vision-language,https://arxiv.org/abs/2010.00747,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-gloria,GLoRIA,Stanford,clinical,medical-imaging,vision-language,https://github.com/marshuang80/gloria,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-pubmedclip,PubMedCLIP,Hasso Plattner Institute,clinical,medical-imaging,vision-language,https://github.com/sarahESL/PubMedCLIP,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-retfound,RETFound,Moorfields Eye Hospital / UCL,clinical,medical-imaging,retina,https://github.com/rmaphoh/RETFound_MAE,prominent,,,,yes,2026-11-13,scan-2026-06-11
-biobert,BioBERT,Korea University (DMIS Lab),clinical,clinical-language-patient,biomedical-text,https://github.com/dmis-lab/biobert,prominent,,clinical-NLP,,yes,2026-11-13,scan-2026-06-11
-pubmedbert,PubMedBERT,Microsoft,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext,prominent,,clinical-NLP,,yes,2026-11-13,scan-2026-06-11
-bio-clinicalbert,Bio_ClinicalBERT,MIT / NYU,clinical,clinical-language-patient,clinical-text,https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT,prominent,,clinical-NLP|EHR,,yes,2026-11-13,scan-2026-06-11
-meditron,Meditron3-70B,EPFL,clinical,clinical-language-patient,medical-text,https://huggingface.co/EPFLiGHT/Meditron3-70B,prominent,,,70B,yes,2026-11-13,scan-2026-06-11
-pmc-llama,PMC-LLaMA,Shanghai Jiao Tong University,clinical,clinical-language-patient,biomedical-text,https://github.com/chaoyi-wu/PMC-LLaMA,tracked,,,,yes,2026-06-11,scan-2026-06-11
-biomistral,BioMistral,Avignon / Nantes Universities,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/BioMistral/BioMistral-7B,prominent,,,7B,yes,2026-11-13,scan-2026-06-11
-me-llama,Me-LLaMA,University of Florida / Yale,clinical,clinical-language-patient,biomedical-text,https://github.com/BIDS-Xu-Lab/Me-LLaMA,tracked,,,,yes,2026-06-11,scan-2026-06-11
-huatuogpt-2,HuatuoGPT-II,CUHK (Shenzhen),clinical,clinical-language-patient,clinical-text,https://github.com/FreedomIntelligence/HuatuoGPT-II,tracked,,,,yes,2026-06-11,scan-2026-06-11
-gatortrongpt,GatorTronGPT,University of Florida / NVIDIA,clinical,clinical-language-patient,EHR-text,https://github.com/uf-hobi-informatics-lab/GatorTronGPT,tracked,,EHR|clinical-NLP|generative,,yes,2026-06-11,scan-2026-06-11
-biomedgpt,BiomedGPT,Lehigh University / Mayo Clinic,clinical,clinical-language-patient,vision-language,https://github.com/taokz/BiomedGPT,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-ctranspath,CTransPath,Sichuan University / Tencent AI Lab,clinical,digital-pathology,WSI,https://github.com/Xiyue-Wang/TransPath,tracked,,,,yes,2026-06-11,scan-2026-06-11
-medklip,MedKLIP,Shanghai Jiao Tong University,clinical,medical-imaging,vision-language,https://github.com/MediaBrain-SJTU/MedKLIP,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-med-flamingo,Med-Flamingo,Stanford,clinical,medical-imaging,vision-language,https://github.com/snap-stanford/med-flamingo,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-chexzero,CheXzero,Stanford (Rajpurkar Lab),clinical,medical-imaging,radiograph,https://github.com/rajpurkarlab/CheXzero,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-dnabert-2,DNABERT-2,Northwestern University,biology,genomics,DNA,https://github.com/MAGICS-LAB/DNABERT_2,prominent,,multispecies,,yes,2026-11-13,scan-2026-06-11
-genept,GenePT,University of Chicago,biology,transcriptomics,scRNA,https://github.com/yiqunchen/GenePT,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-rna-msm,RNA-MSM,Peking University,biology,transcriptomics,RNA,https://github.com/yikunpku/RNA-MSM,tracked,,,,yes,2026-06-11,scan-2026-06-11
-splicebert,SpliceBERT,Sun Yat-sen University,biology,transcriptomics,RNA,https://github.com/biomed-AI/SpliceBERT,tracked,,,,yes,2026-06-11,scan-2026-06-11
-3utrbert,3UTRBERT,University of Toronto,biology,transcriptomics,RNA,https://github.com/yangyn533/3UTRBERT,tracked,,,,yes,2026-06-11,scan-2026-06-11
-codonbert,CodonBERT,Sanofi,biology,transcriptomics,RNA,https://github.com/Sanofi-Public/CodonBERT,tracked,,,,yes,2026-06-11,scan-2026-06-11
-moleculestm,MoleculeSTM,NVIDIA / Mila,chemistry,small-molecule,SMILES,https://github.com/chao1224/MoleculeSTM,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-proteindt,ProteinDT,NVIDIA / Mila,biology,protein,protein,https://github.com/chao1224/ProteinDT,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-usfm,USFM,Fudan University,clinical,medical-imaging,ultrasound,https://github.com/openmedlab/USFM,tracked,,,,yes,2026-06-11,scan-2026-06-11
-medsam,MedSAM2,University of Toronto (Bo Wang Lab),clinical,medical-imaging,medical-image-segmentation,https://arxiv.org/abs/2504.03600,tracked,,,,yes,2026-11-06,scan-2026-06-11
-medclip,MedCLIP,UIUC (Jimeng Sun Lab),clinical,medical-imaging,vision-language,https://github.com/RyanWangZf/MedCLIP,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11
-kobo,KoBo,Southeast University,clinical,medical-imaging,vision-language,https://github.com/ChenXiaoFei-CS/KoBo,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-radiology-llama2,Radiology-Llama2,University of Georgia / Emory,clinical,clinical-language-patient,radiology-text,https://arxiv.org/abs/2309.06419,tracked,,clinical-NLP,,yes,2026-06-11,scan-2026-06-11
-clinicalgpt,ClinicalGPT,BUPT,clinical,clinical-language-patient,clinical-text,https://arxiv.org/abs/2306.09968,tracked,,,,yes,2026-06-11,scan-2026-06-11
-clinical-bert-vlm,Clinical-BERT (VLM),Beijing Institute of Technology,clinical,medical-imaging,vision-language,https://ojs.aaai.org/index.php/AAAI/article/view/20204,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-medgemma,MedGemma 1.5,Google,clinical,clinical-language-patient,vision-language,https://huggingface.co/google/medgemma-1.5-4b-it,prominent,,multimodal,4B,yes,2026-11-13,scan-2026-06-11
-medversa,MedVersa,Harvard,clinical,medical-imaging,vision-language,https://arxiv.org/abs/2405.07988,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-kad,KAD,Shanghai Jiao Tong University,clinical,medical-imaging,radiograph,https://github.com/xiaoman-zhang/KAD,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-biovil,BioViL,Microsoft,clinical,medical-imaging,vision-language,https://github.com/microsoft/hi-ml,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11
-pmc-clip,PMC-CLIP,Shanghai Jiao Tong University,clinical,medical-imaging,vision-language,https://github.com/WeixiongLin/PMC-CLIP,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-rudolfv,RudolfV,Aignostics,clinical,digital-pathology,WSI,https://arxiv.org/abs/2401.04079,tracked,,private,,yes,2026-06-11,scan-2026-06-11
-segvol,SegVol,BAAI,clinical,medical-imaging,CT,https://github.com/BAAI-DCAI/SegVol,tracked,,,,yes,2026-06-11,scan-2026-06-11
-sam-med3d,SAM-Med3D,Shanghai AI Laboratory,clinical,medical-imaging,3D-medical-imaging,https://github.com/uni-medical/SAM-Med3D,tracked,,,,yes,2026-11-11,scan-2026-06-11
-chief,CHIEF,Harvard (Yu Lab),clinical,digital-pathology,WSI,https://github.com/hms-dbmi/CHIEF,tracked,,,,yes,2026-06-11,scan-2026-06-11
-musk,MUSK,Stanford (Ruijiang Li Lab),clinical,digital-pathology,vision-language,https://github.com/lilab-stanford/MUSK,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-pathchat,PathChat,Harvard (Mahmood Lab),clinical,digital-pathology,vision-language,https://www.nature.com/articles/s41586-024-07618-3,tracked,,multimodal|private,,yes,2026-06-11,scan-2026-06-11
-rfdiffusion,RFD4-Proteína,University of Washington (Baker Lab) / NVIDIA,biology,protein,protein,https://github.com/RosettaCommons/RFD4-Proteina,tracked,,generative,,yes,2026-11-12,scan-2026-06-11
-boltz-1,Boltz-2,MIT / Recursion,biology,protein,protein,https://github.com/jwohlwend/boltz,prominent,,generative,,yes,2026-11-13,scan-2026-06-11
-chai-1,Chai-1,Chai Discovery,biology,protein,protein,https://github.com/chaidiscovery/chai-lab,prominent,,generative,,yes,2026-11-13,scan-2026-06-11
-medcpt,MedCPT,NCBI / NIH,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/ncbi/MedCPT-Query-Encoder,prominent,,clinical-NLP,,yes,2026-11-13,scan-2026-06-11
-biolinkbert,BioLinkBERT,Stanford,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/michiyasunaga/BioLinkBERT-base,prominent,,clinical-NLP,,yes,2026-11-13,scan-2026-06-11
-med-bert,Med-BERT,UTHealth,clinical,clinical-language-patient,EHR,https://github.com/ZhiGroup/Med-BERT,prominent,,EHR|longitudinal,,yes,2026-11-13,scan-2026-06-11
-biomedlm,BioMedLM,Stanford CRFM / MosaicML,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/stanford-crfm/BioMedLM,tracked,,generative,,yes,2026-06-11,scan-2026-06-11
-clip-universal,CLIP-Driven Universal Model,Johns Hopkins / NVIDIA,clinical,medical-imaging,CT,https://github.com/ljwztc/CLIP-Driven-Universal-Model,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-maira-2,MAIRA-2,Microsoft,clinical,medical-imaging,vision-language,https://huggingface.co/microsoft/maira-2,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11
-rad-dino,RAD-DINO,Microsoft,clinical,medical-imaging,radiograph,https://huggingface.co/microsoft/rad-dino,prominent,,,,yes,2026-11-13,scan-2026-06-11
-vista3d,VISTA3D,NVIDIA,clinical,medical-imaging,CT,https://github.com/Project-MONAI/VISTA,tracked,,,,yes,2026-06-11,scan-2026-06-11
-universeg,UniverSeg,MIT / Harvard,clinical,medical-imaging,medical-image-segmentation,https://github.com/JJGO/UniverSeg,tracked,,,,yes,2026-06-11,scan-2026-06-11
-stu-net,STU-Net,Shanghai AI Laboratory,clinical,medical-imaging,CT,https://github.com/uni-medical/STU-Net,tracked,,,,yes,2026-06-11,scan-2026-06-11
-prism,PRISM2,Paige,clinical,digital-pathology,WSI,https://arxiv.org/abs/2506.13063,tracked,,multimodal,,yes,2026-11-06,scan-2026-06-11
-titan,TITAN,Mahmood Lab / Mass General Brigham,clinical,digital-pathology,vision-language,https://huggingface.co/MahmoodLab/TITAN,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11
-quiltnet,QuiltNet,University of Washington,clinical,digital-pathology,vision-language,https://huggingface.co/wisdomik/QuiltNet-B-32,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11
-medalpaca,MedAlpaca,University Hospital Aachen,clinical,clinical-language-patient,medical-text,https://github.com/kbressem/medAlpaca,tracked,,,,yes,2026-06-11,scan-2026-06-11
-chatdoctor,ChatDoctor,UT Southwestern,clinical,clinical-language-patient,medical-text,https://github.com/Kent0n-Li/ChatDoctor,prominent,,,,yes,2026-11-13,scan-2026-06-11
-clinicalbert-huang,ClinicalBERT (Huang),NYU / Princeton,clinical,clinical-language-patient,EHR-text,https://github.com/kexinhuang12345/clinicalBERT,prominent,,EHR|clinical-NLP,,yes,2026-11-13,scan-2026-06-11
-ct-clip,CT-CLIP,University of Zurich,clinical,medical-imaging,CT,https://github.com/ibrahimethemhamamci/CT-CLIP,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11
-borzoi,Borzoi,Calico,biology,genomics,DNA,https://github.com/calico/borzoi,prominent,,,,yes,2026-11-13,scan-2026-06-11
-scimilarity,SCimilarity,Genentech,biology,transcriptomics,scRNA,https://github.com/Genentech/scimilarity,tracked,,,,yes,2026-06-11,scan-2026-06-11
-uni-fold,Uni-Fold,DP Technology,biology,protein,protein,https://github.com/dptech-corp/Uni-Fold,tracked,,,,yes,2026-06-11,scan-2026-06-11
-evodiff,EvoDiff,Microsoft,biology,protein,protein,https://github.com/microsoft/evodiff,tracked,,generative,,yes,2026-06-11,scan-2026-06-11
-chemberta-2,ChemBERTa-2,DeepChem,chemistry,small-molecule,SMILES,https://huggingface.co/DeepChem/ChemBERTa-77M-MLM,prominent,,,,yes,2026-11-13,scan-2026-06-11
-grover-mol,GROVER (molecule),Tencent AI Lab,chemistry,small-molecule,molecular-graph,https://github.com/tencent-ailab/grover,prominent,,,,yes,2026-11-13,scan-2026-06-11
-txgnn,TxGNN,Harvard (Zitnik Lab),emerging,emerging,knowledge-graph,https://github.com/mims-harvard/TxGNN,tracked,,drug-target-interaction,,yes,2026-06-11,scan-2026-06-11
-nv-reason-ct,NV-Reason-CT,NVIDIA,clinical,medical-imaging,CT-3D,https://arxiv.org/abs/2609.27511,tracked,,multimodal|clinical-reasoning,,yes,2026-11-12,scan-2026-11-09
-kronos,KRONOS,Harvard (Mahmood Lab),biology,multi-omics,spatial-proteomics,https://arxiv.org/abs/2506.03373,tracked,,,,yes,2026-11-12,scan-2026-11-09
-carbon-x,Carbon-X,Hugging Face,biology,genomics,DNA,https://huggingface.co/HuggingFaceBio/Carbon-X,tracked,,generative,14B,yes,2026-11-12,scan-2026-11-09
-profluent-e1,Profluent E1,Profluent,biology,protein,protein,https://github.com/Profluent-AI/E1,tracked,,,150M/300M/600M,yes,2026-11-12,scan-2026-11-09
-esmfold2,ESMFold2,Biohub,biology,protein,protein-structure,https://huggingface.co/biohub/ESMFold2,tracked,,,,yes,2026-11-12,scan-2026-11-09
+slug,name,org,area,category,modality,url,prominence,interp_partner,tags,params,active,last_verified,source,release_year,first_release_year
+evo-2,Evo 2,Arc Institute,biology,genomics,DNA,https://arcinstitute.org/tools/evo,prominent,Goodfire,generative|interpretability,7B/40B,yes,2026-11-13,blog,2025,2024
+hyenadna,HyenaDNA,HazyResearch (Stanford),biology,genomics,DNA,https://github.com/HazyResearch/hyena-dna,prominent,,,,yes,2026-11-13,blog,2023,2023
+nucleotide-transformer,Nucleotide Transformer v3,InstaDeep,biology,genomics,DNA,https://huggingface.co/InstaDeepAI/NTv3_650M_pre,prominent,,multispecies,8M/100M/650M,yes,2026-11-13,blog,2025,2023
+alphagenome,AlphaGenome,Google DeepMind,biology,genomics,DNA,https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/,prominent,,private,,yes,2026-11-13,blog,2025,2021
+geneformer,Geneformer,Boston Children's Hospital,biology,transcriptomics,RNA,https://huggingface.co/ctheodoris/Geneformer,prominent,,,316M,yes,2026-11-13,blog,2025,2023
+scgpt,scGPT,University of Toronto,biology,transcriptomics,RNA,https://github.com/bowang-lab/scGPT,prominent,,,,yes,2026-11-13,blog,2023,2023
+scbert,scBERT,Tencent AI Lab,biology,transcriptomics,RNA,https://github.com/TencentAILabHealthcare/scBERT,tracked,,,,yes,2026-05-08,blog,2021,2021
+transcriptformer,TranscriptFormer,Chan Zuckerberg Initiative,biology,transcriptomics,RNA,https://chanzuckerberg.com/blog/transcriptformer-model-overview/,tracked,,multispecies,,no,2026-05-12,blog,2025,2025
+arc-state,State,Arc Institute,biology,transcriptomics,RNA,https://arcinstitute.org/news/virtual-cell-model-state,tracked,,private,,no,2026-05-12,blog,2025,2025
+arc-stack,Stack,Arc Institute,biology,transcriptomics,RNA,https://arcinstitute.org/tools/stack,tracked,,private,,no,2026-05-12,blog,2026,2026
+alphafold-3,AlphaFold 3,Google DeepMind / Isomorphic Labs,biology,protein,protein,https://alphafoldserver.com/,prominent,,multimodal|private,,yes,2026-11-13,blog,2024,2018
+esm-3,ESM-3,EvolutionaryScale (Meta lineage),biology,protein,protein,https://www.evolutionaryscale.ai/blog/esm3-release,prominent,,multimodal|generative,,yes,2026-11-13,blog,2024,2024
+rosettafold,RoseTTAFold All-Atom,Baker Lab (UW IPD),biology,protein,protein,https://www.science.org/doi/10.1126/science.adl2528,prominent,,,,yes,2026-11-13,blog,2023,2021
+primateai-3d,PrimateAI-3D,Illumina,biology,protein,protein,https://www.science.org/doi/10.1126/science.abn8197,tracked,,private,,yes,2026-05-08,blog,2023,2018
+openfold-3,OpenFold3,,biology,protein,protein,https://openfold.io/,tracked,,,,yes,2026-05-08,blog,2025,2022
+pleiades,Pleiades,Prima Mente,biology,epigenomics,cfDNA,https://www.primamente.com/pleiades,tracked,Goodfire,interpretability|private,,no,2026-11-13,blog,2025,2025
+iglm,IgLM,Stanford (Gray Lab),biology,antibodies-biologics,antibody-sequence,https://github.com/Graylab/IgLM,tracked,,generative,,yes,2026-11-13,blog,2021,2021
+ablang2,AbLang2,Oxford OPIG,biology,antibodies-biologics,antibody-sequence,https://github.com/oxpig/AbLang2,tracked,,,,yes,2026-11-13,blog,2024,2022
+antiberty,AntiBERTy,Gray Lab,biology,antibodies-biologics,antibody-sequence,https://github.com/jeffreyruffolo/AntiBERTy,tracked,,,,yes,2026-05-08,blog,2021,2021
+antiberta2,AntiBERTa2,Alchemab Therapeutics,biology,antibodies-biologics,antibody-sequence,,tracked,,private,,no,2026-05-12,blog,2023,2021
+molmim,MolMIM,NVIDIA BioNeMo,chemistry,small-molecule,SMILES,https://developer.nvidia.com/blog/new-nvidia-neural-models-accelerate-drug-discovery/,tracked,,generative|private,,yes,2026-11-13,blog,2022,2022
+molformer,MoLFormer,IBM Research,chemistry,small-molecule,SMILES,https://github.com/IBM/molformer,prominent,,,,yes,2026-11-13,blog,2021,2021
+chemgpt,ChemGPT,,chemistry,small-molecule,SMILES,https://chemrxiv.org/engage/chemrxiv/article-details/627bddd544bdd532395fb4b5,prominent,,generative,,yes,2026-11-13,blog,2022,2022
+megamolbart,MegaMolBART,NVIDIA / AstraZeneca,chemistry,small-molecule,SMILES,https://github.com/NVIDIA/MegaMolBART,tracked,,generative|private,,yes,2026-05-08,blog,2021,2021
+med-gemini,Med-Gemini,Google,clinical,medical-imaging,multimodal,https://research.google/blog/advancing-medical-ai-with-med-gemini/,tracked,,multimodal|private,,yes,2026-11-13,blog,2024,2024
+biomedclip,BiomedCLIP,Microsoft,clinical,medical-imaging,vision-language,https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224,prominent,,,,yes,2026-11-13,blog,2023,2023
+cxr-foundation,CXR Foundation,Google,clinical,medical-imaging,radiograph,https://github.com/Google-Health/cxr-foundation,tracked,,private,,yes,2026-11-06,blog,2023,2022
+radfm,RadFM,Shanghai Jiao Tong University,clinical,medical-imaging,radiology,https://arxiv.org/abs/2308.02463,tracked,,private,,yes,2026-06-11,blog,2023,2023
+chexfound,CheXFound,Rensselaer Polytechnic Institute,clinical,medical-imaging,radiograph,https://github.com/RPIDIAL/CheXFound,tracked,,private,,no,2026-06-11,blog,2025,2025
+virchow,Virchow2,Paige AI,clinical,digital-pathology,WSI,https://arxiv.org/abs/2408.00738,prominent,,private,,yes,2026-11-13,blog,2024,2023
+prov-gigapath,Prov-GigaPath,Microsoft / Providence,clinical,digital-pathology,WSI,https://www.nature.com/articles/s41586-024-07441-w,prominent,,private,,yes,2026-11-13,blog,2024,2024
+uni,UNI2-h,Harvard Mahmood Lab,clinical,digital-pathology,WSI,https://huggingface.co/MahmoodLab/UNI2-h,prominent,,private,681M,yes,2026-11-13,blog,2025,2023
+conch,CONCH,Harvard Mahmood Lab,clinical,digital-pathology,vision-language,https://www.nature.com/articles/s41591-024-02856-4,prominent,,private,,yes,2026-11-13,blog,2023,2023
+truveta-language-model,Truveta Language Model,Truveta,clinical,clinical-language-patient,EHR-text,https://www.truveta.com/blog/announcement/truveta-language-model/,tracked,,EHR|longitudinal|clinical-reasoning|private,,yes,2026-11-13,blog,2023,2023
+gatortron,GatorTron,University of Florida / NVIDIA,clinical,clinical-language-patient,EHR-text,https://github.com/uf-hobi-informatics-lab/GatorTron,prominent,,EHR|clinical-NLP,,yes,2026-11-13,blog,2022,2022
+nyutron,NYUTron,NYU Langone,clinical,clinical-language-patient,EHR-text,https://www.nature.com/articles/s41586-023-06160-y,tracked,,EHR|clinical-NLP|private,,yes,2026-05-08,blog,2023,2023
+clmbr,CLMBR,Stanford (Nigam Shah group),clinical,clinical-language-patient,EHR-codes,https://arxiv.org/abs/2001.05295,tracked,,EHR|longitudinal|private,,yes,2026-05-08,blog,2020,2020
+amie,AMIE,Google Research,clinical,clinical-language-patient,medical-text,https://research.google/blog/amie-a-research-ai-system-for-diagnostic-medical-reasoning-and-conversations/,prominent,,clinical-reasoning|private,,yes,2026-11-13,blog,2024,2024
+standard-model-bio,Standard Model Bio,Standard Model Bio,clinical,clinical-language-patient,EHR-multi-omics,https://standardmodel.bio/#model,tracked,,longitudinal|private,,no,2026-05-12,blog,2026,2026
+surgvista,SurgVISTA,,clinical,surgical-video,video,https://arxiv.org/abs/2506.02692,tracked,,private,,no,2026-06-11,blog,2025,2025
+endo-fm,Endo-FM,CUHK,clinical,surgical-video,video,https://github.com/med-air/Endo-FM,tracked,,,,yes,2026-11-13,blog,2023,2023
+surgvlp,SurgVLP,University of Strasbourg / CAMMA,clinical,surgical-video,vision-language,https://arxiv.org/abs/2307.15220,tracked,,private,,no,2026-06-11,blog,2023,2023
+heartbeit,HeartBEiT,,emerging,emerging,ECG,https://arxiv.org/abs/2212.14040,tracked,,clinical-waveforms|private,,no,2026-05-12,blog,2022,2022
+labram,LaBraM,,emerging,emerging,EEG,https://github.com/935963004/LaBraM,tracked,,clinical-waveforms,,yes,2026-05-08,blog,2024,2024
+metagene-1,METAGENE-1,Arc Institute,emerging,emerging,DNA-metagenomic,https://arcinstitute.org/news/metagene-1,tracked,,,,yes,2026-05-08,blog,2025,2025
+gpn-msa,GPN-MSA,Song Lab (UC Berkeley),biology,genomics,DNA,https://github.com/songlab-cal/gpn,tracked,,,,yes,2026-05-12,scan-2026-05-12,2023,2022
+gena-lm,ModernGENA,AIRI Institute,biology,genomics,DNA,https://huggingface.co/AIRI-Institute/moderngena-large,prominent,,,377M,yes,2026-11-13,scan-2026-05-12,2026,2023
+epigept,EpiGePT,Tsinghua,biology,epigenomics,epigenome,https://github.com/ZjGaothu/EpiGePT,tracked,,,,no,2026-05-12,scan-2026-05-12,2023,2023
+dnagpt,DNAGPT,Tencent AI Lab,biology,genomics,DNA,https://github.com/TencentAILabHealthcare/DNAGPT,tracked,,generative,,yes,2026-05-12,scan-2026-05-12,2023,2023
+glm-hwang,gLM,Kim Lab (Harvard),biology,genomics,DNA,https://github.com/y-hwang/gLM,tracked,,,,no,2026-05-12,scan-2026-05-12,2023,2023
+rna-fm,RNA-FM,CUHK,biology,transcriptomics,RNA,https://github.com/ml4bio/RNA-FM,tracked,,,,yes,2026-11-13,scan-2026-05-12,2022,2022
+rnabert,RNABERT,Akiyama/Sakakibara (Keio),biology,transcriptomics,RNA,https://github.com/mana438/RNABertModel,tracked,,,,yes,2026-05-12,scan-2026-05-12,2022,2022
+uni-rna,UNI-RNA,DP Technology,biology,transcriptomics,RNA,https://www.biorxiv.org/content/10.1101/2023.07.11.548588,tracked,,private,,yes,2026-05-12,scan-2026-05-12,2023,2023
+xtrimogene,xTrimoGene,BioMap / Tsinghua,biology,transcriptomics,scRNA,https://arxiv.org/abs/2311.15156,tracked,,private,,yes,2026-05-12,scan-2026-05-12,2023,2023
+rinalmo,RiNALMo,Penić et al.,biology,transcriptomics,RNA,https://github.com/lbcb-sci/RiNALMo,tracked,,,,yes,2026-05-12,scan-2026-05-12,2024,2024
+atom-1,ATOM-1,Atomic AI,biology,transcriptomics,RNA,https://www.biorxiv.org/content/10.1101/2023.12.13.571579,tracked,,private,,yes,2026-05-12,scan-2026-05-12,2023,2023
+cellplm,CellPLM,UIUC / Mayo,biology,transcriptomics,scRNA,https://github.com/OmicsML/CellPLM,tracked,,,,yes,2026-05-12,scan-2026-05-12,2023,2023
+utr-lm,UTR-LM,Tsinghua,biology,transcriptomics,mRNA-UTR,https://github.com/a96123155/UTR-LM,tracked,,,,yes,2026-05-12,scan-2026-05-12,2023,2023
+ernie-rna,ERNIE-RNA,Baidu / Tsinghua,biology,transcriptomics,RNA,https://github.com/Bruce-ywj/ERNIE-RNA,tracked,,,,yes,2026-05-12,scan-2026-05-12,2024,2024
+generrna,GenerRNA,Aoki & Sakakibara,biology,transcriptomics,RNA,https://huggingface.co/pfnet/GenerRNA,tracked,,generative,,no,2026-05-12,scan-2026-05-12,2024,2024
+orthrus,Orthrus,University of Toronto,biology,transcriptomics,RNA,https://github.com/bowang-lab/Orthrus,tracked,,,,yes,2026-05-12,scan-2026-05-12,2024,2024
+genecompass,GeneCompass,Beijing Academy of AI,biology,transcriptomics,scRNA,https://github.com/xCompass-AI/GeneCompass,tracked,,multispecies,,yes,2026-05-12,scan-2026-05-12,2023,2023
+scprint,scPRINT,Owkin,biology,transcriptomics,scRNA,https://github.com/cantinilab/scPRINT,tracked,,,,yes,2026-05-12,scan-2026-05-12,2024,2024
+scfoundation,scFoundation,BAAI / Tsinghua,biology,transcriptomics,scRNA,https://github.com/biomap-research/scFoundation,tracked,,,,yes,2026-05-12,scan-2026-05-12,2023,2023
+scmulan,scMulan,Tsinghua,biology,transcriptomics,scRNA,https://github.com/SuperBianC/scMulan,tracked,,generative,,yes,2026-05-12,scan-2026-05-12,2024,2024
+cell2sentence,Cell2Sentence,Yale / Google,biology,multi-omics,scRNA+text,https://github.com/vandijklab/cell2sentence,prominent,,multimodal,,yes,2026-11-13,scan-2026-05-12,2023,2023
+unirep,UniRep,Church Lab (Harvard),biology,protein,protein,https://github.com/churchlab/UniRep,prominent,,,,yes,2026-11-13,scan-2026-05-12,2019,2019
+prottrans,ProtTrans,RostLab (TUM),biology,protein,protein,https://github.com/agemagician/ProtTrans,prominent,,,,yes,2026-11-13,scan-2026-05-12,2020,2020
+protgpt2,ProtGPT2,Ferruz et al.,biology,protein,protein,https://huggingface.co/nferruz/ProtGPT2,prominent,,generative,,yes,2026-11-13,scan-2026-05-12,2022,2022
+proteinbert,ProteinBERT,Hebrew University,biology,protein,protein,https://github.com/nadavbra/protein_bert,prominent,,,,yes,2026-11-13,scan-2026-05-12,2021,2021
+progen2,ProGen2,Salesforce Research,biology,protein,protein,https://github.com/salesforce/progen,prominent,,generative,,yes,2026-11-13,scan-2026-05-12,2022,2020
+saprot,SaProt,Westlake / ZJU,biology,protein,protein+structure,https://github.com/westlake-repl/SaProt,prominent,,multimodal,,yes,2026-11-13,scan-2026-05-12,2023,2023
+ankh,Ankh,Elnaggar et al.,biology,protein,protein,https://github.com/agemagician/Ankh,prominent,,,,yes,2026-11-13,scan-2026-05-12,2023,2023
+gearnet,GearNet,MILA,biology,protein,protein-structure,https://github.com/DeepGraphLearning/GearNet,tracked,,,,yes,2026-05-12,scan-2026-05-12,2022,2022
+xtrimopglm,xTrimoPGLM,BioMap / Tsinghua,biology,protein,protein,https://arxiv.org/abs/2401.06199,tracked,,private,,yes,2026-05-12,scan-2026-05-12,2023,2023
+protst,ProtST,MILA,biology,protein,protein+text,https://github.com/DeepGraphLearning/ProtST,tracked,,multimodal,,yes,2026-05-12,scan-2026-05-12,2023,2023
+carp,CARP,Microsoft Research,biology,protein,protein,https://github.com/microsoft/protein-sequence-models,tracked,,,,yes,2026-05-12,scan-2026-05-12,2022,2022
+ontoprotein,OntoProtein,ZJU,biology,protein,protein,https://github.com/zjunlp/OntoProtein,tracked,,,,yes,2026-05-12,scan-2026-05-12,2022,2022
+helixfold-single,HelixFold-Single,Baidu,biology,protein,protein-structure,https://github.com/PaddlePaddle/PaddleHelix,tracked,,,,yes,2026-05-12,scan-2026-05-12,2022,2022
+bioemu-1,BioEmu-2,Microsoft Research,biology,protein,protein-conformation,https://github.com/microsoft/bioemu2,prominent,,generative,500M,yes,2026-11-13,scan-2026-05-12,2026,2024
+calm,CaLM,Outeiral & Deane (OPIG),biology,protein,codon,https://github.com/oxpig/CaLM,tracked,,,,yes,2026-05-12,scan-2026-05-12,2022,2022
+protrek,ProTrek,Westlake,biology,protein,protein+structure+text,https://github.com/westlake-repl/ProTrek,prominent,,multimodal,,yes,2026-11-13,scan-2026-05-12,2024,2024
+evolla,Evolla,Westlake / Tsinghua,biology,protein,protein+text,https://github.com/westlake-repl/Evolla,tracked,,multimodal,,yes,2026-05-12,scan-2026-05-12,2025,2025
+biot5-plus,BioT5+,Microsoft Research Asia,emerging,emerging,molecules+protein+text,https://github.com/QizhiPei/BioT5,tracked,,multimodal,,yes,2026-05-12,scan-2026-05-12,2024,2023
+h-optimus-0,H-optimus-1,Bioptimus,clinical,digital-pathology,WSI,https://huggingface.co/bioptimus/H-optimus-1,tracked,,,1.1B,yes,2026-11-06,scan-2026-05-12,2025,2024
+uce,Universal Cell Embeddings,Snap Stanford / CZI,biology,transcriptomics,scRNA,https://github.com/snap-stanford/UCE,tracked,,multispecies,,yes,2026-05-12,scan-2026-05-12,2023,2023
+nicheformer,Nicheformer,Helmholtz Munich (theislab),biology,multi-omics,scRNA+spatial,https://github.com/theislab/nicheformer,tracked,,multimodal,,yes,2026-05-12,scan-2026-05-12,2024,2024
+biogpt,BioGPT,Microsoft,clinical,clinical-language-patient,biomedical-text,https://github.com/microsoft/BioGPT,prominent,,generative|clinical-NLP,,yes,2026-11-13,scan-2026-06-11,2022,2022
+biobart,BioBART,Tsinghua University,clinical,clinical-language-patient,biomedical-text,https://github.com/GanjinZero/BioBART,tracked,,generative|clinical-NLP,,yes,2026-06-11,scan-2026-06-11,2022,2022
+biomegatron,BioMegatron,NVIDIA,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/EMBO/BioMegatron345mUncased,tracked,,clinical-NLP,,yes,2026-06-11,scan-2026-06-11,2020,2020
+kebiolm,KeBioLM,Tsinghua / Alibaba,clinical,clinical-language-patient,biomedical-text,https://github.com/GanjinZero/KeBioLM,tracked,,clinical-NLP,,yes,2026-06-11,scan-2026-06-11,2021,2021
+med-palm-2,Med-PaLM 2,Google,clinical,clinical-language-patient,medical-text,https://arxiv.org/abs/2305.09617,prominent,,clinical-reasoning|private,,yes,2026-11-13,scan-2026-06-11,2023,2022
+behrt,BEHRT,University of Oxford,clinical,clinical-language-patient,EHR,https://github.com/deepmedicine/BEHRT,tracked,,EHR|longitudinal,,yes,2026-06-11,scan-2026-06-11,2019,2019
+clinicalt5,ClinicalT5,University of Oregon / Baidu,clinical,clinical-language-patient,clinical-text,https://huggingface.co/luqh/ClinicalT5-large,tracked,,clinical-NLP|private,,yes,2026-06-11,scan-2026-06-11,2022,2022
+msa-transformer,MSA Transformer,Meta AI,biology,protein,protein,https://github.com/facebookresearch/esm,prominent,,,,yes,2026-11-13,scan-2026-06-11,2021,2021
+omegafold,OmegaFold,Helixon,biology,protein,protein,https://github.com/HeliXonProtein/OmegaFold,tracked,,,,yes,2026-06-11,scan-2026-06-11,2022,2022
+models-genesis,Models Genesis,Arizona State University,clinical,medical-imaging,3D-medical-imaging,https://github.com/MrGiovanni/ModelsGenesis,prominent,,,,yes,2026-11-13,scan-2026-06-11,2019,2019
+lvm-med,LVM-Med,VinAI / Oxford,clinical,medical-imaging,medical-imaging,https://github.com/duyhominhnguyen/LVM-Med,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+med3d,Med3D,Tencent,clinical,medical-imaging,3D-medical-imaging,https://github.com/Tencent/MedicalNet,prominent,,,,yes,2026-11-13,scan-2026-06-11,2019,2019
+visionfm,VisionFM,CUHK (ABILab),clinical,medical-imaging,ophthalmic-imaging,https://github.com/ABILab-CUHK/VisionFM,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+plip,PLIP,Stanford,clinical,digital-pathology,WSI,https://github.com/PathologyFoundation/plip,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11,2023,2023
+llava-med,LLaVA-Med,Microsoft,clinical,medical-imaging,vision-language,https://github.com/microsoft/LLaVA-Med,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11,2023,2023
+convirt,ConVIRT,Stanford,clinical,medical-imaging,vision-language,https://arxiv.org/abs/2010.00747,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2020,2020
+gloria,GLoRIA,Stanford,clinical,medical-imaging,vision-language,https://github.com/marshuang80/gloria,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2021,2021
+pubmedclip,PubMedCLIP,Hasso Plattner Institute,clinical,medical-imaging,vision-language,https://github.com/sarahESL/PubMedCLIP,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2021,2021
+retfound,RETFound,Moorfields Eye Hospital / UCL,clinical,medical-imaging,retina,https://github.com/rmaphoh/RETFound_MAE,prominent,,,,yes,2026-11-13,scan-2026-06-11,2023,2023
+biobert,BioBERT,Korea University (DMIS Lab),clinical,clinical-language-patient,biomedical-text,https://github.com/dmis-lab/biobert,prominent,,clinical-NLP,,yes,2026-11-13,scan-2026-06-11,2019,2019
+pubmedbert,PubMedBERT,Microsoft,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext,prominent,,clinical-NLP,,yes,2026-11-13,scan-2026-06-11,2020,2020
+bio-clinicalbert,Bio_ClinicalBERT,MIT / NYU,clinical,clinical-language-patient,clinical-text,https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT,prominent,,clinical-NLP|EHR,,yes,2026-11-13,scan-2026-06-11,2019,2019
+meditron,Meditron3-70B,EPFL,clinical,clinical-language-patient,medical-text,https://huggingface.co/EPFLiGHT/Meditron3-70B,prominent,,,70B,yes,2026-11-13,scan-2026-06-11,2024,2023
+pmc-llama,PMC-LLaMA,Shanghai Jiao Tong University,clinical,clinical-language-patient,biomedical-text,https://github.com/chaoyi-wu/PMC-LLaMA,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+biomistral,BioMistral,Avignon / Nantes Universities,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/BioMistral/BioMistral-7B,prominent,,,7B,yes,2026-11-13,scan-2026-06-11,2024,2024
+me-llama,Me-LLaMA,University of Florida / Yale,clinical,clinical-language-patient,biomedical-text,https://github.com/BIDS-Xu-Lab/Me-LLaMA,tracked,,,,yes,2026-06-11,scan-2026-06-11,2024,2024
+huatuogpt-2,HuatuoGPT-II,CUHK (Shenzhen),clinical,clinical-language-patient,clinical-text,https://github.com/FreedomIntelligence/HuatuoGPT-II,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+gatortrongpt,GatorTronGPT,University of Florida / NVIDIA,clinical,clinical-language-patient,EHR-text,https://github.com/uf-hobi-informatics-lab/GatorTronGPT,tracked,,EHR|clinical-NLP|generative,,yes,2026-06-11,scan-2026-06-11,2023,2023
+biomedgpt,BiomedGPT,Lehigh University / Mayo Clinic,clinical,clinical-language-patient,vision-language,https://github.com/taokz/BiomedGPT,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+ctranspath,CTransPath,Sichuan University / Tencent AI Lab,clinical,digital-pathology,WSI,https://github.com/Xiyue-Wang/TransPath,tracked,,,,yes,2026-06-11,scan-2026-06-11,2022,2021
+medklip,MedKLIP,Shanghai Jiao Tong University,clinical,medical-imaging,vision-language,https://github.com/MediaBrain-SJTU/MedKLIP,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+med-flamingo,Med-Flamingo,Stanford,clinical,medical-imaging,vision-language,https://github.com/snap-stanford/med-flamingo,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+chexzero,CheXzero,Stanford (Rajpurkar Lab),clinical,medical-imaging,radiograph,https://github.com/rajpurkarlab/CheXzero,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2022,2022
+dnabert-2,DNABERT-2,Northwestern University,biology,genomics,DNA,https://github.com/MAGICS-LAB/DNABERT_2,prominent,,multispecies,,yes,2026-11-13,scan-2026-06-11,2023,2020
+genept,GenePT,University of Chicago,biology,transcriptomics,scRNA,https://github.com/yiqunchen/GenePT,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+rna-msm,RNA-MSM,Peking University,biology,transcriptomics,RNA,https://github.com/yikunpku/RNA-MSM,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+splicebert,SpliceBERT,Sun Yat-sen University,biology,transcriptomics,RNA,https://github.com/biomed-AI/SpliceBERT,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+3utrbert,3UTRBERT,University of Toronto,biology,transcriptomics,RNA,https://github.com/yangyn533/3UTRBERT,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+codonbert,CodonBERT,Sanofi,biology,transcriptomics,RNA,https://github.com/Sanofi-Public/CodonBERT,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+moleculestm,MoleculeSTM,NVIDIA / Mila,chemistry,small-molecule,SMILES,https://github.com/chao1224/MoleculeSTM,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2022,2022
+proteindt,ProteinDT,NVIDIA / Mila,biology,protein,protein,https://github.com/chao1224/ProteinDT,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+usfm,USFM,Fudan University,clinical,medical-imaging,ultrasound,https://github.com/openmedlab/USFM,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+medsam,MedSAM2,University of Toronto (Bo Wang Lab),clinical,medical-imaging,medical-image-segmentation,https://arxiv.org/abs/2504.03600,tracked,,,,yes,2026-11-06,scan-2026-06-11,2025,2023
+medclip,MedCLIP,UIUC (Jimeng Sun Lab),clinical,medical-imaging,vision-language,https://github.com/RyanWangZf/MedCLIP,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11,2022,2022
+kobo,KoBo,Southeast University,clinical,medical-imaging,vision-language,https://github.com/ChenXiaoFei-CS/KoBo,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+radiology-llama2,Radiology-Llama2,University of Georgia / Emory,clinical,clinical-language-patient,radiology-text,https://arxiv.org/abs/2309.06419,tracked,,clinical-NLP,,yes,2026-06-11,scan-2026-06-11,2023,2023
+clinicalgpt,ClinicalGPT,BUPT,clinical,clinical-language-patient,clinical-text,https://arxiv.org/abs/2306.09968,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+clinical-bert-vlm,Clinical-BERT (VLM),Beijing Institute of Technology,clinical,medical-imaging,vision-language,https://ojs.aaai.org/index.php/AAAI/article/view/20204,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2022,2022
+medgemma,MedGemma 1.5,Google,clinical,clinical-language-patient,vision-language,https://huggingface.co/google/medgemma-1.5-4b-it,prominent,,multimodal,4B,yes,2026-11-13,scan-2026-06-11,2026,2025
+medversa,MedVersa,Harvard,clinical,medical-imaging,vision-language,https://arxiv.org/abs/2405.07988,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2024,2024
+kad,KAD,Shanghai Jiao Tong University,clinical,medical-imaging,radiograph,https://github.com/xiaoman-zhang/KAD,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+biovil,BioViL,Microsoft,clinical,medical-imaging,vision-language,https://github.com/microsoft/hi-ml,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11,2022,2022
+pmc-clip,PMC-CLIP,Shanghai Jiao Tong University,clinical,medical-imaging,vision-language,https://github.com/WeixiongLin/PMC-CLIP,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+rudolfv,RudolfV,Aignostics,clinical,digital-pathology,WSI,https://arxiv.org/abs/2401.04079,tracked,,private,,yes,2026-06-11,scan-2026-06-11,2024,2024
+segvol,SegVol,BAAI,clinical,medical-imaging,CT,https://github.com/BAAI-DCAI/SegVol,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+sam-med3d,SAM-Med3D,Shanghai AI Laboratory,clinical,medical-imaging,3D-medical-imaging,https://github.com/uni-medical/SAM-Med3D,tracked,,,,yes,2026-11-11,scan-2026-06-11,2023,2023
+chief,CHIEF,Harvard (Yu Lab),clinical,digital-pathology,WSI,https://github.com/hms-dbmi/CHIEF,tracked,,,,yes,2026-06-11,scan-2026-06-11,2024,2024
+musk,MUSK,Stanford (Ruijiang Li Lab),clinical,digital-pathology,vision-language,https://github.com/lilab-stanford/MUSK,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2025,2025
+pathchat,PathChat,Harvard (Mahmood Lab),clinical,digital-pathology,vision-language,https://www.nature.com/articles/s41586-024-07618-3,tracked,,multimodal|private,,yes,2026-06-11,scan-2026-06-11,2023,2023
+rfdiffusion,RFD4-Proteína,University of Washington (Baker Lab) / NVIDIA,biology,protein,protein,https://github.com/RosettaCommons/RFD4-Proteina,tracked,,generative,,yes,2026-11-12,scan-2026-06-11,2026,2022
+boltz-1,Boltz-2,MIT / Recursion,biology,protein,protein,https://github.com/jwohlwend/boltz,prominent,,generative,,yes,2026-11-13,scan-2026-06-11,2025,2024
+chai-1,Chai-1,Chai Discovery,biology,protein,protein,https://github.com/chaidiscovery/chai-lab,prominent,,generative,,yes,2026-11-13,scan-2026-06-11,2024,2024
+medcpt,MedCPT,NCBI / NIH,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/ncbi/MedCPT-Query-Encoder,prominent,,clinical-NLP,,yes,2026-11-13,scan-2026-06-11,2023,2023
+biolinkbert,BioLinkBERT,Stanford,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/michiyasunaga/BioLinkBERT-base,prominent,,clinical-NLP,,yes,2026-11-13,scan-2026-06-11,2022,2022
+med-bert,Med-BERT,UTHealth,clinical,clinical-language-patient,EHR,https://github.com/ZhiGroup/Med-BERT,prominent,,EHR|longitudinal,,yes,2026-11-13,scan-2026-06-11,2020,2020
+biomedlm,BioMedLM,Stanford CRFM / MosaicML,clinical,clinical-language-patient,biomedical-text,https://huggingface.co/stanford-crfm/BioMedLM,tracked,,generative,,yes,2026-06-11,scan-2026-06-11,2022,2022
+clip-universal,CLIP-Driven Universal Model,Johns Hopkins / NVIDIA,clinical,medical-imaging,CT,https://github.com/ljwztc/CLIP-Driven-Universal-Model,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2023,2023
+maira-2,MAIRA-2,Microsoft,clinical,medical-imaging,vision-language,https://huggingface.co/microsoft/maira-2,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11,2024,2023
+rad-dino,RAD-DINO,Microsoft,clinical,medical-imaging,radiograph,https://huggingface.co/microsoft/rad-dino,prominent,,,,yes,2026-11-13,scan-2026-06-11,2024,2024
+vista3d,VISTA3D,NVIDIA,clinical,medical-imaging,CT,https://github.com/Project-MONAI/VISTA,tracked,,,,yes,2026-06-11,scan-2026-06-11,2024,2024
+universeg,UniverSeg,MIT / Harvard,clinical,medical-imaging,medical-image-segmentation,https://github.com/JJGO/UniverSeg,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+stu-net,STU-Net,Shanghai AI Laboratory,clinical,medical-imaging,CT,https://github.com/uni-medical/STU-Net,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+prism,PRISM2,Paige,clinical,digital-pathology,WSI,https://arxiv.org/abs/2506.13063,tracked,,multimodal,,yes,2026-11-06,scan-2026-06-11,2025,2024
+titan,TITAN,Mahmood Lab / Mass General Brigham,clinical,digital-pathology,vision-language,https://huggingface.co/MahmoodLab/TITAN,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11,2024,2024
+quiltnet,QuiltNet,University of Washington,clinical,digital-pathology,vision-language,https://huggingface.co/wisdomik/QuiltNet-B-32,prominent,,multimodal,,yes,2026-11-13,scan-2026-06-11,2023,2023
+medalpaca,MedAlpaca,University Hospital Aachen,clinical,clinical-language-patient,medical-text,https://github.com/kbressem/medAlpaca,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+chatdoctor,ChatDoctor,UT Southwestern,clinical,clinical-language-patient,medical-text,https://github.com/Kent0n-Li/ChatDoctor,prominent,,,,yes,2026-11-13,scan-2026-06-11,2023,2023
+clinicalbert-huang,ClinicalBERT (Huang),NYU / Princeton,clinical,clinical-language-patient,EHR-text,https://github.com/kexinhuang12345/clinicalBERT,prominent,,EHR|clinical-NLP,,yes,2026-11-13,scan-2026-06-11,2019,2019
+ct-clip,CT-CLIP,University of Zurich,clinical,medical-imaging,CT,https://github.com/ibrahimethemhamamci/CT-CLIP,tracked,,multimodal,,yes,2026-06-11,scan-2026-06-11,2024,2024
+borzoi,Borzoi,Calico,biology,genomics,DNA,https://github.com/calico/borzoi,prominent,,,,yes,2026-11-13,scan-2026-06-11,2023,2023
+scimilarity,SCimilarity,Genentech,biology,transcriptomics,scRNA,https://github.com/Genentech/scimilarity,tracked,,,,yes,2026-06-11,scan-2026-06-11,2023,2023
+uni-fold,Uni-Fold,DP Technology,biology,protein,protein,https://github.com/dptech-corp/Uni-Fold,tracked,,,,yes,2026-06-11,scan-2026-06-11,2022,2022
+evodiff,EvoDiff,Microsoft,biology,protein,protein,https://github.com/microsoft/evodiff,tracked,,generative,,yes,2026-06-11,scan-2026-06-11,2023,2023
+chemberta-2,ChemBERTa-2,DeepChem,chemistry,small-molecule,SMILES,https://huggingface.co/DeepChem/ChemBERTa-77M-MLM,prominent,,,,yes,2026-11-13,scan-2026-06-11,2022,2020
+grover-mol,GROVER (molecule),Tencent AI Lab,chemistry,small-molecule,molecular-graph,https://github.com/tencent-ailab/grover,prominent,,,,yes,2026-11-13,scan-2026-06-11,2020,2020
+txgnn,TxGNN,Harvard (Zitnik Lab),emerging,emerging,knowledge-graph,https://github.com/mims-harvard/TxGNN,tracked,,drug-target-interaction,,yes,2026-06-11,scan-2026-06-11,2023,2023
+nv-reason-ct,NV-Reason-CT,NVIDIA,clinical,medical-imaging,CT-3D,https://arxiv.org/abs/2609.27511,tracked,,multimodal|clinical-reasoning,,yes,2026-11-12,scan-2026-11-09,2026,2026
+kronos,KRONOS,Harvard (Mahmood Lab),biology,multi-omics,spatial-proteomics,https://arxiv.org/abs/2506.03373,tracked,,,,yes,2026-11-12,scan-2026-11-09,2025,2025
+carbon-x,Carbon-X,Hugging Face,biology,genomics,DNA,https://huggingface.co/HuggingFaceBio/Carbon-X,tracked,,generative,14B,yes,2026-11-12,scan-2026-11-09,2026,2026
+profluent-e1,Profluent E1,Profluent,biology,protein,protein,https://github.com/Profluent-AI/E1,tracked,,,150M/300M/600M,yes,2026-11-12,scan-2026-11-09,2025,2025
+esmfold2,ESMFold2,Biohub,biology,protein,protein-structure,https://huggingface.co/biohub/ESMFold2,tracked,,,,yes,2026-11-12,scan-2026-11-09,2026,2026
