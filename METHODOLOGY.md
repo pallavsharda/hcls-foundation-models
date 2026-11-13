@@ -14,12 +14,10 @@ Rubric version 2.0, revised 2026-11-13. A plain-language version lives at [palla
 ## Inclusion gates
 
 A model is listed only if it passes all three:
-
 1. **It is a foundation model.** Pretrained as a general-purpose substrate for many tasks, not a single-task classifier.
 2. **It works on healthcare or life-sciences data.** DNA, RNA, protein, small molecules, pathology slides, EHR text, medical imaging, surgical or endoscopy video, and related modalities.
 3. **It fits a category.** One of the categories in the README, or Emerging if it is cross-cutting.
-
-Openness is not a gate. Closed, gated and vendor-only models are listed when they pass, and carry the `private` tag.
+Closed, gated and vendor-only models are listed when they pass, and carry the `private` tag.
 
 ## Prominence rubric
 
@@ -61,7 +59,6 @@ Only the two strongest usage signals count. Models are adopted through different
 | High | composite 5 or more, with data on at least 2 usage signals |
 | Medium | composite 4, or composite 5 or more with data on fewer than 2 usage signals |
 | Low | composite under 4 |
-
 The two-signal floor stops a single big number, such as a download count with no paper behind it, from carrying a model to high on its own.
 
 ### Two adjustments
@@ -69,15 +66,13 @@ The two-signal floor stops a single big number, such as a download count with no
 1. **Recency.** If a model was released in the last 12 months, its organization scores 2, and it already shows traction (100+ citations, 200+ stars or 1,000+ downloads), it moves up one band, up to high. New releases haven't had time to collect stars and citations.
 2. **Clinical deployment.** Many clinical models have no public repo and no Hugging Face page. For a clinical model where both are N/A, documented use with real patients or clinicians at a named health system counts as one usage signal worth 2 points. Pilots and prospective studies count; research-only licenses and vendor partnerships do not. Med-PaLM 2 (Mayo Clinic and HCA pilots) and AMIE (prospective study at Beth Israel Deaconess) qualify.
 
-## Prominent means clears the bar
+## Prominent means that it clears the bar
 
 A model is `prominent` if and only if it scores high. The rule is applied both ways: on every re-score, tracked models that reach high are promoted and prominent models that fall below it are demoted. Any exception needs a written reason in the model's notes file.
 
-Version 2.0 dropped one signal from version 1: being listed on curated "awesome" lists and surveys. Those lists stopped updating in early 2025 and reflect someone's bookmarks rather than use.
+## One row per model line (old versions are discarded)
 
-## One row per model line
-
-Successive versions of the same model family in the same category are one row. When a new version ships, it replaces the old one in place, and the model's notes file records the change. A sibling model in a different category or modality gets its own row. `first_release_year` keeps the year the line started.
+Successive versions of the same model family in the same category are one row. When a new version ships, it replaces the old one in place, and the model's notes file records the change - this is because the intent is track diversity of models, not iterative evolution. A sibling model in a different category or modality does get its own row. `first_release_year` keeps the year the model line started, in order to recognize timeline of effort.
 
 ## How models are found and kept current
 
