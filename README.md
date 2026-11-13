@@ -84,4 +84,4 @@ Model names, organizations and links are facts belonging to their creators.
 
 ## License and citation
 The data and text are licensed under [CC BY 4.0](LICENSE). Reuse is welcome with credit:
-> Sharda, P. *HCLS Foundation Models*. https://github.com/pallavsharda/hcls-foundation-models
+> Sharda, P. (2026). *HCLS Foundation Models* [Data set]. https://github.com/pallavsharda/hcls-foundation-models
