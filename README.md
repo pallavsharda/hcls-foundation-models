@@ -17,7 +17,7 @@ This is one person's research, applied with a consistent rubric (see [METHODOLOG
 1. **Inclusion.** A model is listed if it passes three gates: is it a foundation model? -> is it trained on healthcare or life-sciences data? -> and does it fit one of the categories below.
 2. **Prominence.** A listed model is marked `prominent` if it clears a published bar built on four criteria: 1. GitHub stars, 2. Hugging Face downloads, 3. citations, and 4. track record of the lab behind it. Everything else that passes the gates is marked as `tracked`.
 
-All rules are in [METHODOLOGY.md](METHODOLOGY.md). As of November 2026, out of 165 total active models, 60 are prominent. Only about a third clear the adoption bar.
+All rules are in [METHODOLOGY.md](METHODOLOGY.md). As of November 2026, out of 178 models, 60 are prominent. Only about a third clear the adoption bar.
 
 ## What is in the repo
 
@@ -54,7 +54,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/pallavsharda/hcls-foundation
 | `interp_partner` | A published interpretability partnership, if any. |
 | `tags` | Pipe-separated labels, for example `generative`, `multimodal`, `private` (weights not freely downloadable). |
 | `params` | Parameter count where known. |
-| `active` | `no` means the model was merged into a successor or retired. Kept for history. |
+| `active` | `yes` for every listed model. `no` is reserved for a model that is withdrawn but kept for history. Superseded versions are not kept as rows; see the model's notes file. |
 | `last_verified` | Date the row was last checked. |
 | `source` | How the model entered the list. |
 | `release_year` | Year the version named in the row first became public. |

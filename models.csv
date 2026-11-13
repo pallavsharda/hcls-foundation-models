@@ -6,19 +6,19 @@ alphagenome,AlphaGenome,Google DeepMind,biology,genomics,DNA,https://deepmind.go
 geneformer,Geneformer,Boston Children's Hospital,biology,transcriptomics,RNA,https://huggingface.co/ctheodoris/Geneformer,prominent,,,316M,yes,2026-11-13,blog,2025,2023
 scgpt,scGPT,University of Toronto,biology,transcriptomics,RNA,https://github.com/bowang-lab/scGPT,prominent,,,,yes,2026-11-13,blog,2023,2023
 scbert,scBERT,Tencent AI Lab,biology,transcriptomics,RNA,https://github.com/TencentAILabHealthcare/scBERT,tracked,,,,yes,2026-05-08,blog,2021,2021
-transcriptformer,TranscriptFormer,Chan Zuckerberg Initiative,biology,transcriptomics,RNA,https://chanzuckerberg.com/blog/transcriptformer-model-overview/,tracked,,multispecies,,no,2026-05-12,blog,2025,2025
-arc-state,State,Arc Institute,biology,transcriptomics,RNA,https://arcinstitute.org/news/virtual-cell-model-state,tracked,,private,,no,2026-05-12,blog,2025,2025
-arc-stack,Stack,Arc Institute,biology,transcriptomics,RNA,https://arcinstitute.org/tools/stack,tracked,,private,,no,2026-05-12,blog,2026,2026
+transcriptformer,TranscriptFormer,Chan Zuckerberg Initiative,biology,transcriptomics,RNA,https://chanzuckerberg.com/blog/transcriptformer-model-overview/,tracked,,multispecies,,yes,2026-11-13,blog,2025,2025
+arc-state,State,Arc Institute,biology,transcriptomics,RNA,https://arcinstitute.org/news/virtual-cell-model-state,tracked,,private,,yes,2026-11-13,blog,2025,2025
+arc-stack,Stack,Arc Institute,biology,transcriptomics,RNA,https://arcinstitute.org/tools/stack,tracked,,private,,yes,2026-11-13,blog,2026,2026
 alphafold-3,AlphaFold 3,Google DeepMind / Isomorphic Labs,biology,protein,protein,https://alphafoldserver.com/,prominent,,multimodal|private,,yes,2026-11-13,blog,2024,2018
 esm-3,ESM-3,EvolutionaryScale (Meta lineage),biology,protein,protein,https://www.evolutionaryscale.ai/blog/esm3-release,prominent,,multimodal|generative,,yes,2026-11-13,blog,2024,2024
 rosettafold,RoseTTAFold All-Atom,Baker Lab (UW IPD),biology,protein,protein,https://www.science.org/doi/10.1126/science.adl2528,prominent,,,,yes,2026-11-13,blog,2023,2021
 primateai-3d,PrimateAI-3D,Illumina,biology,protein,protein,https://www.science.org/doi/10.1126/science.abn8197,tracked,,private,,yes,2026-05-08,blog,2023,2018
 openfold-3,OpenFold3,,biology,protein,protein,https://openfold.io/,tracked,,,,yes,2026-05-08,blog,2025,2022
-pleiades,Pleiades,Prima Mente,biology,epigenomics,cfDNA,https://www.primamente.com/pleiades,tracked,Goodfire,interpretability|private,,no,2026-11-13,blog,2025,2025
+pleiades,Pleiades,Prima Mente,biology,epigenomics,cfDNA,https://www.primamente.com/pleiades,tracked,Goodfire,interpretability|private,,yes,2026-11-13,blog,2025,2025
 iglm,IgLM,Stanford (Gray Lab),biology,antibodies-biologics,antibody-sequence,https://github.com/Graylab/IgLM,tracked,,generative,,yes,2026-11-13,blog,2021,2021
 ablang2,AbLang2,Oxford OPIG,biology,antibodies-biologics,antibody-sequence,https://github.com/oxpig/AbLang2,tracked,,,,yes,2026-11-13,blog,2024,2022
 antiberty,AntiBERTy,Gray Lab,biology,antibodies-biologics,antibody-sequence,https://github.com/jeffreyruffolo/AntiBERTy,tracked,,,,yes,2026-05-08,blog,2021,2021
-antiberta2,AntiBERTa2,Alchemab Therapeutics,biology,antibodies-biologics,antibody-sequence,,tracked,,private,,no,2026-05-12,blog,2023,2021
+antiberta2,AntiBERTa2,Alchemab Therapeutics,biology,antibodies-biologics,antibody-sequence,,tracked,,private,,yes,2026-11-13,blog,2023,2021
 molmim,MolMIM,NVIDIA BioNeMo,chemistry,small-molecule,SMILES,https://developer.nvidia.com/blog/new-nvidia-neural-models-accelerate-drug-discovery/,tracked,,generative|private,,yes,2026-11-13,blog,2022,2022
 molformer,MoLFormer,IBM Research,chemistry,small-molecule,SMILES,https://github.com/IBM/molformer,prominent,,,,yes,2026-11-13,blog,2021,2021
 chemgpt,ChemGPT,,chemistry,small-molecule,SMILES,https://chemrxiv.org/engage/chemrxiv/article-details/627bddd544bdd532395fb4b5,prominent,,generative,,yes,2026-11-13,blog,2022,2022
@@ -27,7 +27,7 @@ med-gemini,Med-Gemini,Google,clinical,medical-imaging,multimodal,https://researc
 biomedclip,BiomedCLIP,Microsoft,clinical,medical-imaging,vision-language,https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224,prominent,,,,yes,2026-11-13,blog,2023,2023
 cxr-foundation,CXR Foundation,Google,clinical,medical-imaging,radiograph,https://github.com/Google-Health/cxr-foundation,tracked,,private,,yes,2026-11-06,blog,2023,2022
 radfm,RadFM,Shanghai Jiao Tong University,clinical,medical-imaging,radiology,https://arxiv.org/abs/2308.02463,tracked,,private,,yes,2026-06-11,blog,2023,2023
-chexfound,CheXFound,Rensselaer Polytechnic Institute,clinical,medical-imaging,radiograph,https://github.com/RPIDIAL/CheXFound,tracked,,private,,no,2026-06-11,blog,2025,2025
+chexfound,CheXFound,Rensselaer Polytechnic Institute,clinical,medical-imaging,radiograph,https://github.com/RPIDIAL/CheXFound,tracked,,private,,yes,2026-11-13,blog,2025,2025
 virchow,Virchow2,Paige AI,clinical,digital-pathology,WSI,https://arxiv.org/abs/2408.00738,prominent,,private,,yes,2026-11-13,blog,2024,2023
 prov-gigapath,Prov-GigaPath,Microsoft / Providence,clinical,digital-pathology,WSI,https://www.nature.com/articles/s41586-024-07441-w,prominent,,private,,yes,2026-11-13,blog,2024,2024
 uni,UNI2-h,Harvard Mahmood Lab,clinical,digital-pathology,WSI,https://huggingface.co/MahmoodLab/UNI2-h,prominent,,private,681M,yes,2026-11-13,blog,2025,2023
@@ -37,18 +37,18 @@ gatortron,GatorTron,University of Florida / NVIDIA,clinical,clinical-language-pa
 nyutron,NYUTron,NYU Langone,clinical,clinical-language-patient,EHR-text,https://www.nature.com/articles/s41586-023-06160-y,tracked,,EHR|clinical-NLP|private,,yes,2026-05-08,blog,2023,2023
 clmbr,CLMBR,Stanford (Nigam Shah group),clinical,clinical-language-patient,EHR-codes,https://arxiv.org/abs/2001.05295,tracked,,EHR|longitudinal|private,,yes,2026-05-08,blog,2020,2020
 amie,AMIE,Google Research,clinical,clinical-language-patient,medical-text,https://research.google/blog/amie-a-research-ai-system-for-diagnostic-medical-reasoning-and-conversations/,prominent,,clinical-reasoning|private,,yes,2026-11-13,blog,2024,2024
-standard-model-bio,Standard Model Bio,Standard Model Bio,clinical,clinical-language-patient,EHR-multi-omics,https://standardmodel.bio/#model,tracked,,longitudinal|private,,no,2026-05-12,blog,2026,2026
-surgvista,SurgVISTA,,clinical,surgical-video,video,https://arxiv.org/abs/2506.02692,tracked,,private,,no,2026-06-11,blog,2025,2025
+standard-model-bio,Standard Model Bio,Standard Model Bio,clinical,clinical-language-patient,EHR-multi-omics,https://standardmodel.bio/#model,tracked,,longitudinal|private,,yes,2026-11-13,blog,2026,2026
+surgvista,SurgVISTA,,clinical,surgical-video,video,https://arxiv.org/abs/2506.02692,tracked,,private,,yes,2026-11-13,blog,2025,2025
 endo-fm,Endo-FM,CUHK,clinical,surgical-video,video,https://github.com/med-air/Endo-FM,tracked,,,,yes,2026-11-13,blog,2023,2023
-surgvlp,SurgVLP,University of Strasbourg / CAMMA,clinical,surgical-video,vision-language,https://arxiv.org/abs/2307.15220,tracked,,private,,no,2026-06-11,blog,2023,2023
-heartbeit,HeartBEiT,,emerging,emerging,ECG,https://arxiv.org/abs/2212.14040,tracked,,clinical-waveforms|private,,no,2026-05-12,blog,2022,2022
+surgvlp,SurgVLP,University of Strasbourg / CAMMA,clinical,surgical-video,vision-language,https://arxiv.org/abs/2307.15220,tracked,,private,,yes,2026-11-13,blog,2023,2023
+heartbeit,HeartBEiT,,emerging,emerging,ECG,https://arxiv.org/abs/2212.14040,tracked,,clinical-waveforms|private,,yes,2026-11-13,blog,2022,2022
 labram,LaBraM,,emerging,emerging,EEG,https://github.com/935963004/LaBraM,tracked,,clinical-waveforms,,yes,2026-05-08,blog,2024,2024
 metagene-1,METAGENE-1,Arc Institute,emerging,emerging,DNA-metagenomic,https://arcinstitute.org/news/metagene-1,tracked,,,,yes,2026-05-08,blog,2025,2025
 gpn-msa,GPN-MSA,Song Lab (UC Berkeley),biology,genomics,DNA,https://github.com/songlab-cal/gpn,tracked,,,,yes,2026-05-12,scan-2026-05-12,2023,2022
 gena-lm,ModernGENA,AIRI Institute,biology,genomics,DNA,https://huggingface.co/AIRI-Institute/moderngena-large,prominent,,,377M,yes,2026-11-13,scan-2026-05-12,2026,2023
-epigept,EpiGePT,Tsinghua,biology,epigenomics,epigenome,https://github.com/ZjGaothu/EpiGePT,tracked,,,,no,2026-05-12,scan-2026-05-12,2023,2023
+epigept,EpiGePT,Tsinghua,biology,epigenomics,epigenome,https://github.com/ZjGaothu/EpiGePT,tracked,,,,yes,2026-11-13,scan-2026-05-12,2023,2023
 dnagpt,DNAGPT,Tencent AI Lab,biology,genomics,DNA,https://github.com/TencentAILabHealthcare/DNAGPT,tracked,,generative,,yes,2026-05-12,scan-2026-05-12,2023,2023
-glm-hwang,gLM,Kim Lab (Harvard),biology,genomics,DNA,https://github.com/y-hwang/gLM,tracked,,,,no,2026-05-12,scan-2026-05-12,2023,2023
+glm-hwang,gLM,Kim Lab (Harvard),biology,genomics,DNA,https://github.com/y-hwang/gLM,tracked,,,,yes,2026-11-13,scan-2026-05-12,2023,2023
 rna-fm,RNA-FM,CUHK,biology,transcriptomics,RNA,https://github.com/ml4bio/RNA-FM,tracked,,,,yes,2026-11-13,scan-2026-05-12,2022,2022
 rnabert,RNABERT,Akiyama/Sakakibara (Keio),biology,transcriptomics,RNA,https://github.com/mana438/RNABertModel,tracked,,,,yes,2026-05-12,scan-2026-05-12,2022,2022
 uni-rna,UNI-RNA,DP Technology,biology,transcriptomics,RNA,https://www.biorxiv.org/content/10.1101/2023.07.11.548588,tracked,,private,,yes,2026-05-12,scan-2026-05-12,2023,2023
@@ -58,7 +58,7 @@ atom-1,ATOM-1,Atomic AI,biology,transcriptomics,RNA,https://www.biorxiv.org/cont
 cellplm,CellPLM,UIUC / Mayo,biology,transcriptomics,scRNA,https://github.com/OmicsML/CellPLM,tracked,,,,yes,2026-05-12,scan-2026-05-12,2023,2023
 utr-lm,UTR-LM,Tsinghua,biology,transcriptomics,mRNA-UTR,https://github.com/a96123155/UTR-LM,tracked,,,,yes,2026-05-12,scan-2026-05-12,2023,2023
 ernie-rna,ERNIE-RNA,Baidu / Tsinghua,biology,transcriptomics,RNA,https://github.com/Bruce-ywj/ERNIE-RNA,tracked,,,,yes,2026-05-12,scan-2026-05-12,2024,2024
-generrna,GenerRNA,Aoki & Sakakibara,biology,transcriptomics,RNA,https://huggingface.co/pfnet/GenerRNA,tracked,,generative,,no,2026-05-12,scan-2026-05-12,2024,2024
+generrna,GenerRNA,Aoki & Sakakibara,biology,transcriptomics,RNA,https://huggingface.co/pfnet/GenerRNA,tracked,,generative,,yes,2026-11-13,scan-2026-05-12,2024,2024
 orthrus,Orthrus,University of Toronto,biology,transcriptomics,RNA,https://github.com/bowang-lab/Orthrus,tracked,,,,yes,2026-05-12,scan-2026-05-12,2024,2024
 genecompass,GeneCompass,Beijing Academy of AI,biology,transcriptomics,scRNA,https://github.com/xCompass-AI/GeneCompass,tracked,,multispecies,,yes,2026-05-12,scan-2026-05-12,2023,2023
 scprint,scPRINT,Owkin,biology,transcriptomics,scRNA,https://github.com/cantinilab/scPRINT,tracked,,,,yes,2026-05-12,scan-2026-05-12,2024,2024
