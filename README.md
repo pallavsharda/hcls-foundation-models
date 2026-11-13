@@ -1,8 +1,6 @@
 # HCLS Foundation Models
 
-An open dataset of foundation models in healthcare and life sciences (HCLS), maintained by [Pallav Sharda](https://pallavsharda.com).
-
-Explore it visually at **[pallavsharda.com/hcls-fm](https://pallavsharda.com/hcls-fm/)**. This repo holds the raw data behind that page, so anyone can check the numbers.
+An open dataset of foundation models in healthcare and life sciences (HCLS), maintained by [Pallav Sharda](https://pallavsharda.com). Explore it visually at **[pallavsharda.com/hcls-fm](https://pallavsharda.com/hcls-fm/)**. This repo holds the raw data behind that page.
 
 ## Contents
 
@@ -15,12 +13,11 @@ Explore it visually at **[pallavsharda.com/hcls-fm](https://pallavsharda.com/hcl
 
 ## The lens
 
-This is one person's research, applied with a consistent rubric. It is not a census of every model released, and it is not gospel.
+This is one person's research, applied with a consistent rubric (see [METHODOLOGY.md](METHODOLOGY.md)). It is not a census of every model released.
+1. **Inclusion.** A model is listed if it passes three gates: is it a foundation model? -> is it trained on healthcare or life-sciences data? -> and does it fits one of the categories below.
+2. **Prominence.** A listed model is marked `prominent` if it clears a published bar built on four criteria: 1. GitHub stars, 2. Hugging Face downloads, 3. citations, and 4. track record of the lab behind it. Everything else that passes the gates is marked as `tracked`.
 
-1. **Inclusion.** A model is listed if it passes three gates: it is a foundation model, it is trained on healthcare or life-sciences data, and it fits one of the categories below.
-2. **Prominence.** A listed model is marked `prominent` if it clears a published bar built on real adoption: GitHub stars, Hugging Face downloads, citations, and the track record of the lab behind it. Everything else that passes the gates is `tracked`.
-
-Both rules are in [METHODOLOGY.md](METHODOLOGY.md). Of 165 active models, 60 are prominent. A thin slice of the field gets most of the real use.
+All rules are in [METHODOLOGY.md](METHODOLOGY.md). As of November 2026, out of 165 total active models, 60 are prominent. Shows that only a third of them get real usage.
 
 ## What is in the repo
 
@@ -32,14 +29,12 @@ Both rules are in [METHODOLOGY.md](METHODOLOGY.md). Of 165 active models, 60 are
 | `METHODOLOGY.md` | Inclusion gates and the prominence rubric. |
 
 Areas and categories:
-
 1. **Biology**: genomics, transcriptomics, protein, epigenomics, antibodies and biologics, multi-omics
 2. **Chemistry**: small molecule
 3. **Clinical**: medical imaging, digital pathology, clinical language and patient, surgical video
 4. **Emerging**: cross-cutting work without a category-defining model yet
 
 Load it in one line:
-
 ```python
 import pandas as pd
 df = pd.read_csv("https://raw.githubusercontent.com/pallavsharda/hcls-foundation-models/main/models.csv")
@@ -64,7 +59,6 @@ df = pd.read_csv("https://raw.githubusercontent.com/pallavsharda/hcls-foundation
 | `source` | How the model entered the list. |
 | `release_year` | Year the version named in the row first became public. |
 | `first_release_year` | Year the first version of that model line became public. |
-
 Blank means unknown or not applicable. One row covers one model line within one category, so newer versions replace older ones (for example Evo to Evo 2).
 
 ## Submit a model or a correction
@@ -73,16 +67,12 @@ Open an issue with the **[Submit a model](https://github.com/pallavsharda/hcls-f
 
 ## Credits
 
-The first version of the list was seeded from three community lists, all now frozen:
-
+The first version of the list was seeded from three community lists:
 1. [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) (Jianing Qiu and others)
 2. [Awesome-Bio-Foundation-Models](https://github.com/apeterswu/Awesome-Bio-Foundation-Models) (apeterswu)
 3. [Awesome-Foundation-Models-for-Advancing-Healthcare](https://github.com/YutingHe-list/Awesome-Foundation-Models-for-Advancing-Healthcare) (Yuting He and others)
-
 Model names, organizations and links are facts belonging to their creators.
 
 ## License and citation
-
 The data and text are licensed under [CC BY 4.0](LICENSE). Reuse is welcome with credit:
-
 > Sharda, P. *HCLS Foundation Models*. https://github.com/pallavsharda/hcls-foundation-models
