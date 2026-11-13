@@ -56,7 +56,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/pallavsharda/hcls-foundation
 | `params` | Parameter count where the paper states it. Often blank. |
 | `active` | `yes` for every listed model. `no` is reserved for a model that is withdrawn but kept for history. Superseded versions are not kept as rows; see the model's notes file. |
 | `last_verified` | Date the row was last checked. |
-| `source` | How the model entered the list: `blog` (my landscape write-up of the field), `scan-YYYY-MM-DD` (a monthly scan on that date), `submission` (an outside suggestion). |
+| `source` | How the model entered the list: `seed` (the initial seed, drawn from the community lists in Credits), `scan-YYYY-MM-DD` (a monthly scan on that date), `submission` (an outside suggestion). |
 | `release_year` | Year the version named in the row first became public. |
 | `first_release_year` | Year the first version of that model line became public. |
 
@@ -68,7 +68,7 @@ Open an issue with the **[Submit a model](https://github.com/pallavsharda/hcls-f
 
 ## Credits
 
-The list started from the 45 models in my landscape write-up of the field. Candidates were then drawn from five community lists, four surveys and the Hugging Face Hub:
+The list was seeded from these community lists and surveys, and is kept current with monthly scans of the Hugging Face Hub:
 1. [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) (Jianing Qiu and others)
 2. [Awesome-Foundation-Models-for-Advancing-Healthcare](https://github.com/YutingHe-list/Awesome-Foundation-Models-for-Advancing-Healthcare) (Yuting He and others)
 3. [Awesome-Bio-Foundation-Models](https://github.com/apeterswu/Awesome-Bio-Foundation-Models) (apeterswu)
