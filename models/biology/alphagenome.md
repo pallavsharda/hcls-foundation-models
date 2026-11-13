@@ -11,4 +11,4 @@ Description: DeepMind regulatory-genomics model for variant-effect prediction ac
 
 ## Version note 2026-11-06
 
-Merged Enformer (previously its own flagship row) into this row. DeepMind says AlphaGenome builds on Enformer (https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/). Its description was: "Long-range regulatory and gene-expression prediction from DNA sequence" (source: https://www.deepmind.com/blog/predicting-gene-expression-with-ai).
+Merged Enformer (previously its own prominent row) into this row. DeepMind says AlphaGenome builds on Enformer (https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/). Its description was: "Long-range regulatory and gene-expression prediction from DNA sequence" (source: https://www.deepmind.com/blog/predicting-gene-expression-with-ai).

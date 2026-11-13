@@ -11,4 +11,4 @@ Description: Open structure-prediction and design model from the Baker Lab, exte
 
 ## 2026-05-08
 
-Renamed from "RoseTTAFold" to "RoseTTAFold All-Atom" to reflect the 2024 Science paper that the blog cites as the flagship version. Slug stays `rosettafold` per the immutable-slug rule.
+Renamed from "RoseTTAFold" to "RoseTTAFold All-Atom" to reflect the 2024 Science paper. Slug stays `rosettafold`.

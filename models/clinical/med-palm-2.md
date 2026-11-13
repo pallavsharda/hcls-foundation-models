@@ -11,7 +11,7 @@ Description: PaLM-2 model tuned for medical question answering; successor to Med
 
 ## Version note 2026-11-06
 
-Merged Med-PaLM (original 2022 model, previously its own flagship row) into this row as its successor. Its description was: "Google's medical large language model for question answering and clinical reasoning" (source: https://arxiv.org/abs/2212.13138).
+Merged Med-PaLM (original 2022 model, previously its own prominent row) into this row as its successor. Its description was: "Google's medical large language model for question answering and clinical reasoning" (source: https://arxiv.org/abs/2212.13138).
 
 ## Version note 2026-11-06
 

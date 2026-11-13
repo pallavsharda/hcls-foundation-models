@@ -14,8 +14,8 @@ An open dataset of foundation models in healthcare and life sciences (HCLS), mai
 ## The lens
 
 This is one person's research, applied with a consistent rubric (see [METHODOLOGY.md](METHODOLOGY.md)). It is not a census of every model released.
-1. **Inclusion.** A model is listed if it passes three gates: is it a foundation model? -> is it trained on healthcare or life-sciences data? -> and does it fit one of the categories below.
-2. **Prominence.** A listed model is marked `prominent` if it clears a published bar built on four criteria: 1. GitHub stars, 2. Hugging Face downloads, 3. citations, and 4. track record of the lab behind it. Everything else that passes the gates is marked as `tracked`.
+1. **Inclusion.** A model is listed if it passes three gates: it is a foundation model, it works on healthcare or life-sciences data, and it fits one of the categories below.
+2. **Prominence.** A listed model is marked `prominent` if it scores 5 or more out of 7: lab track record (0 to 2), plus the two strongest of GitHub stars, Hugging Face downloads and citations (0 to 2 each), plus 1 for activity in the last 6 months. Everything else that passes the gates is `tracked`.
 
 All rules are in [METHODOLOGY.md](METHODOLOGY.md). As of November 2026, out of 178 models, 60 are prominent. Only about a third clear the adoption bar.
 
@@ -53,10 +53,10 @@ df = pd.read_csv("https://raw.githubusercontent.com/pallavsharda/hcls-foundation
 | `prominence` | `prominent` or `tracked`. See METHODOLOGY.md. |
 | `interp_partner` | A published interpretability partnership, if any. |
 | `tags` | Pipe-separated labels, for example `generative`, `multimodal`, `private` (weights not freely downloadable). |
-| `params` | Parameter count where known. |
+| `params` | Parameter count where the paper states it. Often blank. |
 | `active` | `yes` for every listed model. `no` is reserved for a model that is withdrawn but kept for history. Superseded versions are not kept as rows; see the model's notes file. |
 | `last_verified` | Date the row was last checked. |
-| `source` | How the model entered the list. |
+| `source` | How the model entered the list: `blog` (my landscape write-up of the field), `scan-YYYY-MM-DD` (a monthly scan on that date), `submission` (an outside suggestion). |
 | `release_year` | Year the version named in the row first became public. |
 | `first_release_year` | Year the first version of that model line became public. |
 
@@ -64,11 +64,11 @@ Blank means unknown or not applicable. One row covers one model line within one 
 
 ## Submit a model or a correction
 
-Open an issue with the **[Submit a model](https://github.com/pallavsharda/hcls-foundation-models/issues/new/choose)** form. Every submission is checked by hand against the gates before it is added. This repo is published from a private working copy, so pull requests can't be merged directly; an issue is the way in.
+Open an issue with the **[Submit a model](https://github.com/pallavsharda/hcls-foundation-models/issues/new/choose)** form. Every submission is checked by hand against the gates before it is added. This repo is published from a separate working copy, so pull requests can't be merged directly; an issue is the way in.
 
 ## Credits
 
-The list started from my own taxonomy of the field. Candidates were then drawn from five community lists, four surveys and the Hugging Face Hub:
+The list started from the 45 models in my landscape write-up of the field. Candidates were then drawn from five community lists, four surveys and the Hugging Face Hub:
 1. [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) (Jianing Qiu and others)
 2. [Awesome-Foundation-Models-for-Advancing-Healthcare](https://github.com/YutingHe-list/Awesome-Foundation-Models-for-Advancing-Healthcare) (Yuting He and others)
 3. [Awesome-Bio-Foundation-Models](https://github.com/apeterswu/Awesome-Bio-Foundation-Models) (apeterswu)
