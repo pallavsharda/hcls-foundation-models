@@ -14,10 +14,10 @@ An open dataset of foundation models in healthcare and life sciences (HCLS), mai
 ## The lens
 
 This is one person's research, applied with a consistent rubric (see [METHODOLOGY.md](METHODOLOGY.md)). It is not a census of every model released.
-1. **Inclusion.** A model is listed if it passes three gates: is it a foundation model? -> is it trained on healthcare or life-sciences data? -> and does it fits one of the categories below.
+1. **Inclusion.** A model is listed if it passes three gates: is it a foundation model? -> is it trained on healthcare or life-sciences data? -> and does it fit one of the categories below.
 2. **Prominence.** A listed model is marked `prominent` if it clears a published bar built on four criteria: 1. GitHub stars, 2. Hugging Face downloads, 3. citations, and 4. track record of the lab behind it. Everything else that passes the gates is marked as `tracked`.
 
-All rules are in [METHODOLOGY.md](METHODOLOGY.md). As of November 2026, out of 165 total active models, 60 are prominent. Shows that only a third of them get real usage.
+All rules are in [METHODOLOGY.md](METHODOLOGY.md). As of November 2026, out of 165 total active models, 60 are prominent. Only about a third clear the adoption bar.
 
 ## What is in the repo
 
